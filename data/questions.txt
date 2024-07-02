@@ -22,7 +22,7 @@ this patient’s history mos t increased his risk for developing this condition?
 patient says the bumps are not itchy or painful but that she finds them embarrassing. She has no history of major medical
 illness and takes no medications. Her vital signs are within normal limits. Physical examination shows the find ings in
 the photograph. Which of the following is the most likely diagnosis?
-9 (A) Eczema
+(A) Eczema
 (B) Folliculitis
 (C) Hidradenitis
 (D) Keratosis pilaris
@@ -67,7 +67,7 @@ embryologic origin of this patient's condition?
 (C) Failure of one ureteric bud to develop normally
 (D) Fusion of the inferior poles of the metanephros during ascent 
 10 
- 6. A 78 -year-old man comes to the office for a follow -up examination. He was discharged from the hospital 1  week ago 
+6. A 78 -year-old man comes to the office for a follow -up examination. He was discharged from the hospital 1  week ago 
 after being treated for a nontuberculous mycobacterial infection. He started treatment with ciprofloxacin and rifampin 
 at that time. He also h as hypertension and underwent placement of a mechanical aortic valve 6  years ago for aortic 
 stenosis. Other current medications are hydrochlorothiazide, lisinopril, and warfarin. His warfarin dose was doubled 
@@ -159,7 +159,7 @@ Which of the following is the most appropriate initial action by the physician?
  
  
 12 
- 11. A 60 -year-old man comes to the office because of weakness, tingling of his hands and feet, irritability, and forgetfulness 
+11. A 60 -year-old man comes to the office because of weakness, tingling of his hands and feet, irritability, and forgetfulness 
 for 4 months. Physical examination shows pallor, weakness, and spasticity. Deep tendon reflexes are increased. 
 Sensation to vibration  is absent in the lower extremities. Laboratory studies show megaloblastic anemia, serum 
 antiparietal cell antibodies, and increased serum concentrations of methylmalonic acid and total homocyst(e)ine. The 
@@ -217,7 +217,7 @@ following processes best explains the development of the left ventricular abnorm
  
   
 13 
- 15. A 53 -year-old man comes to the physician because of a dry scaly rash on his body for the past year. He has had a 15 -
+15. A 53 -year-old man comes to the physician because of a dry scaly rash on his body for the past year. He has had a 15 -
 kg (33-lb) weight loss during the past year. He is 178  cm (5 ft 10 in) tall and now weighs 54  kg (120 lb); BMI is 
 17 kg/m2. His stools have a large volume and float. Which of the following nutrient deficiencies is most likely?  
  
@@ -344,7 +344,7 @@ best explains  the purpose of using this approach to disclosure?
 (E) Influencing the parents' course of action about what is medically most appropriate  
  
 16 
- 24. A 62 -year-old man comes to the physician because of a 6 -month history of urinary hesitancy and dribbling after urination. 
+24. A 62 -year-old man comes to the physician because of a 6 -month history of urinary hesitancy and dribbling after urination. 
 He has to urinate two to three times nightly. Physical examination shows a diffusely enlarged, firm, and nontender 
 prostate. Which of the following is most likely to have contributed to the development of this patient's condition?  
  
@@ -445,7 +445,7 @@ history regarding which of the follo wing in this patient?
 (E) Unintended weight loss  
  
 18 
- 31. A 3-year-old boy is brought to the office because of a 2 -day history of bulging of his left eye. He says his eye hurts. He 
+31. A 3-year-old boy is brought to the office because of a 2 -day history of bulging of his left eye. He says his eye hurts. He 
 has no history of major medical illness or recent trauma to the area, and he receives no medications. Vital signs are 
 within normal l imits. Physical examination shows exophthalmos of the left eye. MRI of the brain shows a 2 -cm mass 
 involving the ocular muscles of the left eye. A biopsy specimen of the mass shows malignant cells, some of which have 
@@ -529,7 +529,7 @@ is most likely located at which of the following spinal cord levels?
  
  
 20 
- 37. A 45 -year-old man is brought to the emergency department 30 minutes after the sudden onset of crushing chest pain. His 
+37. A 45 -year-old man is brought to the emergency department 30 minutes after the sudden onset of crushing chest pain. His 
 father, maternal aunt, and paternal uncle all died of myocardial infarctions under the age of 50 years. Physical 
 examination shows tendinous xanthomas on the hands and thickened Achilles tendons. Serum lipid studies  show a total 
 cholesterol concentration of 410 mg/dL, HDL -cholesterol concentration of 30 mg/dL, and triglyceride concentration of 
@@ -672,7 +672,7 @@ wheezes or crackles are heard. A drug from which of the following classes is mos
  
  
 23 
- 46. A 40 -year-old woman comes to the physician because of a runny nose, sneezing, and itching eyes on exposure to cats 
+46. A 40 -year-old woman comes to the physician because of a runny nose, sneezing, and itching eyes on exposure to cats 
 since childhood. Antiallergy drugs have not provided relief. Her symptoms improve with a program of desensitization 
 involving administration of increasing doses of the allergen. Which of the following is the most likely mechanism of the 
 beneficial effect of this treatment?  
@@ -730,7 +730,7 @@ Which of the following is the most likely diagnosis?
  
   
 24 
- 49. A 46 -year-old woman comes to the physician because of a 1 -month history of fatigue, weakness, and palpitations. She 
+49. A 46 -year-old woman comes to the physician because of a 1 -month history of fatigue, weakness, and palpitations. She 
 has advanced kidney disease as a result of continued use of combination analgesics for low back pain. She has 
 hypertension well controlled with a loop diuretic, a β -adrenergic blocker, and a dihydropyridine calcium channel 
 blocker. She ha s a history of gastritis and hemorrhoids associated with occult blood in the stools. She is in no acute 
@@ -862,7 +862,7 @@ does not extend over any other parts of the body. Which of the following is the 
  
  
 27 
- 56. A 22 -year-old woman at 32 weeks’ gestation comes to the office for a prenatal visit. Vital signs are within normal limits. 
+56. A 22 -year-old woman at 32 weeks’ gestation comes to the office for a prenatal visit. Vital signs are within normal limits. 
 Fundal height and fetal heart tones are also normal. At the end of the examination, the patient tells the physician that her 
 friend i s a certified lay midwife and has recently convinced her to have a home birth. The patient asks the physician if 
 he would be the backup for the midwife in case of an emergency. Which of the following is the most appropriate initial 
@@ -1018,7 +1018,7 @@ occurred in which of the following cells?
  
  
 31 
- (A) Erythroid progenitor  
+(A) Erythroid progenitor  
 (B) Hematopoietic stem  
 (C) Lymphatic progenitor  
 (D) Megakaryocyte progenitor  
@@ -1061,7 +1061,7 @@ findings in this newborn if the karyotype is found to be 46,XX?
  
  
 32 
- 67. An 80 -year-old woman is brought to the emergency department (ED) 30  minutes after she fell out of her wheelchair at 
+67. An 80 -year-old woman is brought to the emergency department (ED) 30  minutes after she fell out of her wheelchair at 
 home. This is the second visit to the ED for a fall during the past 3  months. She lives with her daughter and son -in-law, 
 who say they “do t he best we can.” The patient has dementia, Alzheimer type, coronary artery disease, type  2 diabetes 
 mellitus, and hypertension. Current medications are amlodipine, aspirin, atorvastatin, donepezil, long -acting insulin, and 
@@ -1182,7 +1182,7 @@ symptoms?
  
  
 35 
- 75. A 35 -year-old woman, gravida 2, para 1, at 15 weeks’ gestation is brought to the hospital in active labor. The physician 
+75. A 35 -year-old woman, gravida 2, para 1, at 15 weeks’ gestation is brought to the hospital in active labor. The physician 
 care team confers and determines that the birth cannot be prevented and that the fetus will not survive. After explaining 
 this fact to the patient, the patient says, "I know it is a long shot, but I still want my baby resuscitated and everything 
 done to save him." After empathizing with the patient, which of the following is the most appropriate initial response by 
@@ -1388,7 +1388,7 @@ patient's condition?
  
   
 39 
- 85. A 48 -year-old man comes to the physician requesting treatment for alcohol withdrawal. He reports a 30 -year history of 
+85. A 48 -year-old man comes to the physician requesting treatment for alcohol withdrawal. He reports a 30 -year history of 
 consuming 6 to 10 beers daily. He has had two citations for driving while intoxicated. He has previously experienced 
 alcohol -associated se izures and withdrawal symptoms. His vital signs are within normal limits. Physical examination 
 shows palmar erythema. The most appropriate pharmacotherapy in this patient most likely has which of the following 
@@ -1560,7 +1560,7 @@ nightly for 10  years. Which of the following examination findings is most likel
  
  
 43 
- 95. Patient Information  
+95. Patient Information  
 Age:  16 years  
 Gender: M, self -identified  
 Race/Ethnicity:  Hispanic, self -identified  
@@ -1707,7 +1707,7 @@ blood pressure without increasing her pulse. Which of the following drugs is mos
 (E) Phenylephrine  
   
 46 
- 100. A 2-month -old girl is  admitted to the hospital because of severe pneumonia. She has a history of mucocutaneous 
+100. A 2-month -old girl is  admitted to the hospital because of severe pneumonia. She has a history of mucocutaneous 
 candidiasis and chronic diarrhea. Her pulse is 160/min, and respirations are 40/min. Crackles are heard over both lung 
 fields. Her leukocyte count is 5400/mm3 (N=5000 –19,500), with 86% segmented neutrophils, 6% lymphocytes, and 8% 
 monocytes. Immunologic testing of a specimen obtained via bronchoscopy is positive for Pneumocystis jirovecii . Flow 
@@ -1753,7 +1753,7 @@ the photograph. A n abnormality of which of the following is most likely to conf
  
  
 47 
- 103. A 73 -year-old woman comes to the emergency department because of a 6 -hour history of severe abdominal pain. She 
+103. A 73 -year-old woman comes to the emergency department because of a 6 -hour history of severe abdominal pain. She 
 has chronic atrial fibrillation and underwent placement of a prosthetic mitral valve 4  years ago. Her pulse is 120/min 
 and irregularly irregular, and blood pressure is 80/60  mm Hg. Arteriography shows an embolus in the superior 
 mesenteric artery lodged just beyond the patent middle colic artery. A laparotomy is done . During this procedure, which 
@@ -1811,7 +1811,7 @@ of the following is the most likely cause of the findings in this patient?
  
   
 48 
- 107. A previously healthy 45 -year-old woman who works as a park ranger comes to the physician because of a 1 -week history 
+107. A previously healthy 45 -year-old woman who works as a park ranger comes to the physician because of a 1 -week history 
 of shortness of breath, even at rest. She has lived in the mountains at 10,000 feet above sea level for 2 years; the 
 physician’s office is located at sea level. Her pulse is 85/min, respirations are 18/min, and blood pressure is 125/90 mm 
 Hg. Physical examination while sitting upright shows jugular venous distention and 2+ pedal edema. During the past 2 
@@ -1870,7 +1870,7 @@ these findings?
 (E) Rubella virus  
   
 49 
- 111. A 34 -year-old woman with myasthenia gravis comes to the emergency department because of a 2 -day history of 
+111. A 34 -year-old woman with myasthenia gravis comes to the emergency department because of a 2 -day history of 
 increasing weakness, shortness of breath, and abdominal cramping. Current medications are prednisone and 
 pyridostigmine. Her temperature is 37°C (98. 6°F), pulse is 45/min, and respirations are 25/min and shallow. Her voice 
 is soft and hypernasal, and she coughs weakly when swallowing water. Breath and heart sounds are normal. Pulmonary 
@@ -1929,7 +1929,7 @@ patient most likely has a genetic defect that most directly affects the synthesi
  
   
 50 
- 115. A 72 -year-old man is brought to the office because of a 6 -month history of increasing fatigue and a 1 -month history of 
+115. A 72 -year-old man is brought to the office because of a 6 -month history of increasing fatigue and a 1 -month history of 
 numbness of his feet. Physical examination shows marked pallor. Proprioception and sensation to vibration are decreased 
 in the lower extr emities. Laboratory studies show:  
  
@@ -1962,7 +1962,7 @@ drugs was most likely prescribed?
  
  
 51 
- 117. A 4-year-old boy develops fever 3 weeks after being admitted to the hospital for induction chemotherapy for treatment 
+117. A 4-year-old boy develops fever 3 weeks after being admitted to the hospital for induction chemotherapy for treatment 
 of acute lymphoblastic leukemia. Chemotherapy medications are L-asparaginase, dexamethasone, doxorubicin, and 
 vincristine. His temperature is 38.2°C (100.8°F), pulse is 122/min, and respirations are 24/min. Physical examination 
 shows pallor, alopecia, and ulcerations over the gums. A central venous catheter with entry  site in the right upper chest 
