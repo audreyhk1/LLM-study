@@ -1,12 +1,17 @@
 import pandas as pd
 
+# question dataframe
+global questions_df
+qdf = pd.DataFrame(columns=["question", "choices", "answer"])
+
 def main():
+    global qdf
     QUESTION_TXT = "data/questions.txt"
     ANSWER_TXT = "data/answers.txt"
     
     # reads questions
-    for i in range(1, 6):
-        question = question_to_df(question_file=QUESTION_TXT, answer_file=ANSWER_TXT, current=i)
+    for i in range(1, 5):       
+        qdf.loc[len(qdf)] = question_to_df(question_file=QUESTION_TXT, answer_file=ANSWER_TXT, current=i)
         
 
 """
@@ -17,7 +22,9 @@ Problematic questions: 40, 115
 Some of the questions refer to the image
 """
 def question_to_df(question_file, answer_file, current: int):
-    question = {"question": "", "choices": "", "answer": ""}
+    question = []
+    question_txt = ""
+    choice_txt = ""
 
     # opening question file
     with open(question_file, "r") as file:
@@ -36,18 +43,16 @@ def question_to_df(question_file, answer_file, current: int):
             elif f"{current + 1}. " in line[0:3]:
                 break     
             if qflag == True and aflag == False:
-                question["question"] += line.replace("\n", "")
+                question_txt += line.replace("\n", "")
             elif aflag == True and qflag == False:
-                question["choices"] += line.replace("\n", ", ")
+                choice_txt += line.replace("\n", ", ")
     
     # opening answer file
     with open(answer_file, "r") as file:
         for i, line in enumerate(file):
             if i == current - 1:
-                question["answer"] = line[-3]
-                break
+                return [question_txt.rstrip(), choice_txt.rstrip(), line[-3]]
 
-    return question
     
         
     
