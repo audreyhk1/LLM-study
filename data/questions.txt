@@ -16,16 +16,8 @@ this patient’s history mos t increased his risk for developing this condition?
 (C) Medication use
 (D) Previous  fractures
 (E) Recent physical activity
-2. A 14 -year-old girl is brought to the office by her mother because of a 3 -month history of red bumps on her skin. The
-patient says the bumps are not itchy or painful but that she finds them embarrassing. She has no history of major medical
-illness and takes no medications. Her vital signs are within normal limits. Physical examination shows the find ings in
-the photograph. Which of the following is the most likely diagnosis?
-(A) Eczema
-(B) Folliculitis
-(C) Hidradenitis
-(D) Keratosis pilaris
-(E) Urticaria
-3. A 50 -year-old man comes to the office because of a 2 -month history of increasing daytime somnolence. He has
+
+2. A 50 -year-old man comes to the office because of a 2 -month history of increasing daytime somnolence. He has
 obstructive sleep apnea for which he has only intermittently used a continuous positive airway pressure device. He is
 170 cm (5 ft 7 in) tall and we ighs 181  kg (400 lb); BMI is 63  kg/m2. His temperature is 37°C  (98.6°F), pulse is 100/min,
 respirations are 12/min, and blood pressure is 135/80  mm Hg. Physical examination shows a gray -blue tinge to the lips,
@@ -36,7 +28,8 @@ most likely in this patient?
 (B) Increased hemoglobin concentration
 (C) Increased total lung capacity
 (D) Left ventricular hypertrophy
-4. A 32 -year-old man comes to the office because of a 1 -day history of cough productive of small amounts of blood and a
+
+3. A 32 -year-old man comes to the office because of a 1 -day history of cough productive of small amounts of blood and a
 2-day history of shortness of breath and swelling of his ankles. He also has a 2 -week history of progressive fatigue and
 episodes of dark u rine. He has no history of major medical illness and takes no medications. His temperature is 37°C
 (98.6°F), pulse is 90/min, respirations are 18/min, and blood pressure is 175/110 mm Hg. Pulse oximetry on room air
@@ -56,7 +49,8 @@ antibodies directed again st which of the following antigens?
 (C) Nucleolar protein
 (D) Phospholipid
 (E) Proteins in neutrophil cytoplasm
-5. A 5-year-old girl is brought to the emergency department because of a 2 -day history of fever, urinary urgency, and
+
+4. A 5-year-old girl is brought to the emergency department because of a 2 -day history of fever, urinary urgency, and
 burning pain with urination. She has had four similar episodes during the past year. A diagnosis of urinary tract infection
 is made. Subsequent renal ultrasonography shows one large U -shaped kidney. Which of the follo wing is the most likely
 embryologic origin of this patient's condition?
@@ -65,7 +59,7 @@ embryologic origin of this patient's condition?
 (C) Failure of one ureteric bud to develop normally
 (D) Fusion of the inferior poles of the metanephros during ascent 
 
-6. A 78 -year-old man comes to the office for a follow -up examination. He was discharged from the hospital 1  week ago 
+5. A 78 -year-old man comes to the office for a follow -up examination. He was discharged from the hospital 1  week ago 
 after being treated for a nontuberculous mycobacterial infection. He started treatment with ciprofloxacin and rifampin 
 at that time. He also h as hypertension and underwent placement of a mechanical aortic valve 6  years ago for aortic 
 stenosis. Other current medications are hydrochlorothiazide, lisinopril, and warfarin. His warfarin dose was doubled 
@@ -84,7 +78,7 @@ Which of the following is the most likely cause of this patient's laboratory fin
 (D) Increased vegetable consumption  
 (E) Induction of cytochrome enzymes  
 
-7. A 32 -year-old man comes to the office because of a 2 -week history of fever and throat pain. He is 173 cm (5 ft 8 in) tall 
+6. A 32 -year-old man comes to the office because of a 2 -week history of fever and throat pain. He is 173 cm (5 ft 8 in) tall 
 and weighs 63 kg (140 lb); BMI is 21 kg/m2. His pulse is 110/min, respirations are 16/min, and blood pressure is 98/68 
 mm Hg. Physical examination shows scattered 2 - to 4-cm lymph nodes in the neck, axillae, and inguinal regions. There 
 is a bilateral tonsillar exudate but no ulcerations. Results of laboratory studies are shown:  
@@ -101,7 +95,8 @@ A heterophile antibody test result is negative. Which of the following is the mo
 (C) HIV infection  
 (D) Lymphogranuloma venereum infection  
 (E) Streptococcal pharyngitis  
-8. A 50 -year-old man comes to the office for a follow -up examination. He has a 2 -month history of headache and shortness 
+
+7. A 50 -year-old man comes to the office for a follow -up examination. He has a 2 -month history of headache and shortness 
 of breath with exertion. He also has hypertension treated with hydrochlorothiazide for the past 2  years. His blood 
 pressure is 180/105  mm Hg. Ophthalmoscopic examination is most likely to show which of the following in this patient?  
  
@@ -110,19 +105,8 @@ pressure is 180/105  mm Hg. Ophthalmoscopic examination is most likely to show w
 (C) Optic neuritis  
 (D) Posterior subcapsular cataracts  
 (E) Tractional retinal detachment  
-9. A 65 -year-old woman with a history of rheumatic mitral valve disease is brought to the emergency department 30 minutes 
-after the sudden onset of right -sided weakness and inability to speak. Neurologic examination shows weakness of the 
-right lower side of t he face and difficulty swallowing. Muscle strength is 3/5 on the right side. She can understand what 
-is said to her, but she cannot repeat words or answer questions. An ECG shows atrial fibrillation. The most likely cause 
-of the neurologic findings in this  patient is occlusion of which of the following labeled arteries in the photograph of a 
-normal brain?  
- 
-(A) A  
-(B) B  
-(C) C  
-(D) D  
-(E) E  
-10. A 51 -year-old man with a 10 -year history of gastroesophageal reflux and suspected Barrett esophagus comes to the office 
+
+8. A 51 -year-old man with a 10 -year history of gastroesophageal reflux and suspected Barrett esophagus comes to the office 
 because his omeprazole dose "doesn't work around the Christmas holidays." He states that he prides himself on having 
 a large appetite and "holding his liquor" during the holidays. He currently takes the maximum dose of omeprazole. 
 Which of the following is the most appropriate initial action by the physician?  
@@ -132,7 +116,8 @@ Which of the following is the most appropriate initial action by the physician?
 (C) Order an upper endoscopy  
 (D) Refer the patient to a gastroenterologist  
 (E) Switch the omeprazole to pantoprazole   
-11. A 60 -year-old man comes to the office because of weakness, tingling of his hands and feet, irritability, and forgetfulness 
+
+9. A 60 -year-old man comes to the office because of weakness, tingling of his hands and feet, irritability, and forgetfulness 
 for 4 months. Physical examination shows pallor, weakness, and spasticity. Deep tendon reflexes are increased. 
 Sensation to vibration  is absent in the lower extremities. Laboratory studies show megaloblastic anemia, serum 
 antiparietal cell antibodies, and increased serum concentrations of methylmalonic acid and total homocyst(e)ine. The 
@@ -143,7 +128,8 @@ synthesis of which of the following amino acids is  most likely impaired in this
 (C) Methionine  
 (D) Phenylalanine  
 (E) Tyrosine  
-12. A 65 -year-old woman comes to the office for a follow -up examination 1 year after she underwent operative resection of 
+
+10. A 65 -year-old woman comes to the office for a follow -up examination 1 year after she underwent operative resection of 
 the right colon and chemotherapy for stage III colon cancer. She reports fatigue. Physical examination shows no 
 abnormalities. A staging CT scan of the chest and abdomen shows five new 2 - to 3-cm masses in the liver and both 
 lungs. This patient's cancer most likely spread to the lungs via which of the following structures?  
@@ -155,7 +141,8 @@ lungs. This patient's cancer most likely spread to the lungs via which of the fo
 (E) Pulmonary vein  
 (F) Superior mesenteric artery  
 (G) Superior vena cava  
-13. A 26 -year-old man comes to the office because of a 1 -week history of increased urinary frequency accompanied by 
+
+11. A 26 -year-old man comes to the office because of a 1 -week history of increased urinary frequency accompanied by 
 excessive thirst. He says he has been urinating hourly. Physical examination shows no abnormalities. Serum chemistry 
 studies are within the reference ranges. Urine osmolality is 50 mOsmol/kg H 2O. After administration of ADH 
 (vasopressin), his urine osmolality is within the reference range. The most likely cause of this patient's symptoms is 
@@ -167,7 +154,8 @@ dysfunction of which of the following structures?
 (D) Hypophysial portal system  
 (E) Loop of Henle  
 (F) Supraoptic nucleus  
-14. A 52 -year-old woman comes to the office because of a 6 -month history of intermittent headaches. Sometimes the pain 
+
+12. A 52 -year-old woman comes to the office because of a 6 -month history of intermittent headaches. Sometimes the pain 
 improves when the patient lies down in a quiet room. Her temperature is 37.5°C (99.5°F), pulse is 86/min, respirations 
 are 16/min, and blood pressure is 154/100  mm Hg. The lungs are clear. Cardiac examination shows the point of maximal 
 impulse displaced to the left and occasional skipped beats; there are no murmurs or rubs. There is no S 3. Resting 
@@ -179,7 +167,8 @@ following processes best explains the development of the left ventricular abnorm
 (C) Increased synthesis of contractile filaments  
 (D) Misfolding and aggregation of cytoskeletal proteins  
 (E) Myocyte hyperplasia as a result of induction of embryonic genes  
-15. A 53 -year-old man comes to the physician because of a dry scaly rash on his body for the past year. He has had a 15 -
+
+13. A 53 -year-old man comes to the physician because of a dry scaly rash on his body for the past year. He has had a 15 -
 kg (33-lb) weight loss during the past year. He is 178  cm (5 ft 10 in) tall and now weighs 54  kg (120 lb); BMI is 
 17 kg/m2. His stools have a large volume and float. Which of the following nutrient deficiencies is most likely?  
  
@@ -188,7 +177,8 @@ kg (33-lb) weight loss during the past year. He is 178  cm (5 ft 10 in) tall and
 (C) Vitamin B 12 (cobalamin)  
 (D) Vitamin C  
 (E) Zinc  
-16. Serum LDL -cholesterol concentrations are measured in blood samples collected from 25 healthy volunteers. The data 
+
+14. Serum LDL -cholesterol concentrations are measured in blood samples collected from 25 healthy volunteers. The data 
 follow a normal distribution. The mean and standard deviation for this group are 130 mg/dL and 25 mg/dL, respectively. 
 The standard error of t he mean is 5.0. With a 95% confidence level, the true mean for the population from which this 
 sample was drawn falls within which of the following ranges (in mg/dL)?  
@@ -198,7 +188,8 @@ sample was drawn falls within which of the following ranges (in mg/dL)?
 (C) 125 -135 
 (D) 128 -132 
 (E) 129 -131 
-17. A 39 -year-old man comes to the physician because of a 6 -month history of progressive shortness of breath. He has had 
+
+15. A 39 -year-old man comes to the physician because of a 6 -month history of progressive shortness of breath. He has had 
 a cough productive of white sputum for 2  years. He smoked 1  pack of cigarettes daily for 16  years but quit 10  years ago. 
 He is in mild resp iratory distress with pursed lips and a barrel chest; he is using the accessory muscles of respiration. 
 Breath sounds are distant and crackles are present in the lower lung fields bilaterally. Pulmonary function tests show a 
@@ -211,8 +202,7 @@ diagnosis?
 (D) Cystic fibrosis  
 (E) Emphysema  
  
- 
-18. Investigators conduct  a study that evaluates the effect of finasteride on the incidence of prostate cancer in 500 patients.  
+16. Investigators conduct  a study that evaluates the effect of finasteride on the incidence of prostate cancer in 500 patients.  
 The investigators recruit an additional 1000 patients for the study. Which of the following effects will this have on the 
 research study?  
  
@@ -223,23 +213,7 @@ research study?
 (E) Impossible to predict  
  
   
-
-  
- 
-19. An 82 -year-old woman has a 7 -month history of increasing indigestion, upper abdominal bloating, and early satiety. 
-Photomicrographs of her gastric wall are shown: A is a hematoxylin and eosin stain; B is a mucin stain; C is an 
-immunostain for cytokeratin. Which of the following is most likely to have decreased expression in these cells?  
- 
-(A) Cathepsin D  
-(B) Epithelial cadherins  
-(C) Heparin -binding fibroblast growth factors  
-(D) Integrins  
-(E) Type IV collagenase  
-(F) Vascular endothelial growth factor  
- 
- 
- 
-20. A 54 -year-old woman comes to the physician because she would like to lose weight. She has been on numerous diets in 
+17. A 54 -year-old woman comes to the physician because she would like to lose weight. She has been on numerous diets in 
 the past with limited success. Both her parents have type  2 diabetes mellitus. She is 160  cm (5 ft 3 in) tall and weighs 
 69 kg (152 lb); BMI is 27  kg/m2. Her blood pressure is 140/90  mm Hg. Fasting serum glucose concentration is 
 102 mg/dL. Compared with a woman of the same age whose weight is normal, which of the following serum 
@@ -250,32 +224,8 @@ abnormalities is most likely in this patient?
 (C) Decreased leptin concentration  
 (D) Increased fasting insulin concentration  
 (E) Increased growth hormone concentration  
-(F) Increased thyroid -stimulating hormone concentration  
- 
- 
-
-  
- 
- 
-21. A 65 -year-old woman is brought to the emergency department because of a 10 -minute history of chest tightness and 
-severe pain of her left arm. Physical examination shows jugular venous distention. Crackles are heard over the lung 
-fields. An ECG shows ST -segment elevation greater than 1 mm in leads V 4 through V 6 and new Q waves. Serum studies 
-show an increased troponin I concentration. Which of the following labeled points in the graph best represents the 
-changes in cardiac function that occurred during the f irst 10 seconds after the onset of pain in this patient?  
- 
-(A) W → X  
-(B) W → Y  
-(C) W → Z  
-(D) X → W  
-(E) X → Y  
-(F) X → Z  
-(G) Z → W  
-(H) Z → X  
-(I) Z → Y  
- 
- 
- 
-22. A previously healthy 33 -year-old woman is brought to the emergency department by the Secret Service for stalking the 
+(F) Increased thyroid -stimulating hormone concentration 
+18. A previously healthy 33 -year-old woman is brought to the emergency department by the Secret Service for stalking the 
 president of the USA for 2 months. She claims to be married to the president's twin brother and states that the president 
 just had his twin kidnapped to avoid competition. She speaks rapidly and is difficult to interrupt. Her associations are 
 often loose. She says, "I haven't slept for days, but I won't even try to sleep until my husband is rescued. God has been 
@@ -290,7 +240,7 @@ tests, saying, "I don't have time to wait for the results." Which of the followi
 (E) Schizophrenia  
  
  
-23. In informing a couple that their newborn has Down syndrome, there is a specific, relatively limited amount of information 
+19. In informing a couple that their newborn has Down syndrome, there is a specific, relatively limited amount of information 
 that the consulting physician should give immediately. The rest can be discussed at a later time. Which of the following 
 best explains  the purpose of using this approach to disclosure?  
  
@@ -301,7 +251,7 @@ best explains  the purpose of using this approach to disclosure?
 (E) Influencing the parents' course of action about what is medically most appropriate  
  
 
-24. A 62 -year-old man comes to the physician because of a 6 -month history of urinary hesitancy and dribbling after urination. 
+20. A 62 -year-old man comes to the physician because of a 6 -month history of urinary hesitancy and dribbling after urination. 
 He has to urinate two to three times nightly. Physical examination shows a diffusely enlarged, firm, and nontender 
 prostate. Which of the following is most likely to have contributed to the development of this patient's condition?  
  
@@ -312,7 +262,7 @@ prostate. Which of the following is most likely to have contributed to the devel
 (E) Production of prostate -specific antigen  
  
  
-25. A 19 -year-old man who is in the US Army is brought to the emergency department 45  minutes after he sustained a knife 
+21. A 19 -year-old man who is in the US Army is brought to the emergency department 45  minutes after he sustained a knife 
 wound to the right side of his chest during an altercation. He has no history of major medical illness and takes no 
 medications. His temperature is 36.9°C  (98.4°F), pulse is 110/min, respirations are 24/min, and blood pressure is 
 114/76  mm Hg. Pulse oximetry on room air shows an oxygen saturation of 94 %. On physical examination, the trachea 
@@ -328,7 +278,7 @@ findings?
  
  
  
-26. A 34 -year-old man comes to the office because of a 1 -month history of diarrhea. He has a history of pheochromocytoma 
+22. A 34 -year-old man comes to the office because of a 1 -month history of diarrhea. He has a history of pheochromocytoma 
 treated 2  years ago. His mother is being treated for a tumor of her parathyroid gland. He has no other history of major 
 medical illness and takes no medications. His temperature is 37.0°C  (98.6°F), pulse is 84/min, respirations are 10/min,  
 and blood pressure is 120/75  mm Hg. Pulse oximetry on room air shows an oxygen saturation of 97%. Vital signs are 
@@ -343,7 +293,7 @@ patient is a mutation in which of the following types of genes?
 (E) Tumor suppressor gene  
  
  
-27. A 56 -year-old man is brought to the emergency department by his wife 30  minutes after he had severe upper back pain 
+23. A 56 -year-old man is brought to the emergency department by his wife 30  minutes after he had severe upper back pain 
 and hoarseness before becoming comatose. He has hypertension treated with hydrochlorothiazide. His temperature is 
 37°C (98.6°F), pulse is 10 0/min, and blood pressure is 160/80  mm Hg in the right arm and 100/60  mm Hg in the left 
 arm. Ophthalmologic examination shows ptosis and miosis of the left eye. There is anhidrosis of the left side of the 
@@ -362,21 +312,10 @@ following conditions is the most likely cause of these findings?
 
   
  
-28. A 68 -year-old man with alcohol use disorder comes to the office because of a 3 -month history of intermittent blood in 
-his urine; he has had no pain. He is a retired laboratory technician from a company that produces naphthylamine. He has 
-smoked 1½ packs of  cigarettes daily for 45 years. A CT scan of the abdomen shows a mass in the pelvis of the left 
-kidney. A photograph of the surgically resected kidney is shown. The neoplastic process in this kidney is most likely to 
-be which of the following?  
- 
-(A) Angiomyolipoma  
-(B) Metastatic melanoma  
-(C) Nephroblastoma  
-(D) Oncocytoma  
-(E) Urothelial carcinoma  
  
  
  
-29. A 27 -year-old woman comes to the emergency department because of a 1 -hour history of severe shortness of breath. She 
+24. A 27 -year-old woman comes to the emergency department because of a 1 -hour history of severe shortness of breath. She 
 has just returned from a cross -country flight. She has a history of borderline hypertension. Her temperature is 36.9°C 
 (98.5°F), pulse is 113/min, respirations are 28/min, and blood pressure is 138/85 mm Hg. Physical examination sh ows 
 that the right calf has an increased circumference compared with the left calf, and there is tenderness behind the right 
@@ -389,7 +328,7 @@ knee. Which of the following is the most likely underlying cause of this patient
 (E) von Willebrand disease  
  
  
-30. A 20 -year-old woman is brought to the urgent care center because of a 2 -month history of progressive weakness of her 
+25. A 20 -year-old woman is brought to the urgent care center because of a 2 -month history of progressive weakness of her 
 arms. She also has a 1 -week history of moderate back pain and headache. Her only medication is ibuprofen as needed 
 for pain. Muscle strengt h is 3/5 in the upper extremities. Sensation to pinprick is decreased over the upper extremities. 
 MRI of the spine shows a central syrinx in the cervical spinal cord. It is most appropriate to obtain specific additional 
@@ -402,7 +341,7 @@ history regarding which of the follo wing in this patient?
 (E) Unintended weight loss  
  
 
-31. A 3-year-old boy is brought to the office because of a 2 -day history of bulging of his left eye. He says his eye hurts. He 
+26. A 3-year-old boy is brought to the office because of a 2 -day history of bulging of his left eye. He says his eye hurts. He 
 has no history of major medical illness or recent trauma to the area, and he receives no medications. Vital signs are 
 within normal l imits. Physical examination shows exophthalmos of the left eye. MRI of the brain shows a 2 -cm mass 
 involving the ocular muscles of the left eye. A biopsy specimen of the mass shows malignant cells, some of which have 
@@ -415,7 +354,7 @@ striations. Which of the following is t he most likely diagnosis?
 (E) Thyroid cancer  
  
  
-32. An 18 -year-old woman with sickle cell disease is brought to the emergency department by her parents because of a 2 -
+27. An 18 -year-old woman with sickle cell disease is brought to the emergency department by her parents because of a 2 -
 hour history of severe abdominal pain and nausea. Her parents say that she had a cheeseburger, milk shake, and chocolate 
 bar for lunch. Her temperature is 37°C (98.6°F). Physical examination shows tenderness over the right upper quadrant 
 of the abdomen, radiating to the right shoulder. Ultrasonogr aphy of the right upper quadrant of the abdomen shows 
@@ -428,7 +367,7 @@ gallstones. Which of the following is the most likely underlying cause of this p
 (E) Overload of unconjugated bilirubin  
  
  
-33. In a sample of 100 individuals, the mean leukocyte count is 7500/mm3, with a standard deviation of 1000/mm3. If the 
+28. In a sample of 100 individuals, the mean leukocyte count is 7500/mm3, with a standard deviation of 1000/mm3. If the 
 leukocyte counts in this population follow a normal (gaussian) distribution, approximately 50% of individuals will have 
 which of the following total leukocyte counts?  
  
@@ -439,7 +378,7 @@ which of the following total leukocyte counts?
 (E) >9500/mm3 
  
  
-34. A previously healthy 52 -year-old woman comes to the physician because of a 2 -month history of fatigue, constipation, 
+29. A previously healthy 52 -year-old woman comes to the physician because of a 2 -month history of fatigue, constipation, 
 and frequent urination. Her temperature is 37.1°C (98.8°F), pulse is 80/min, respirations are 14/min, and blood pressure 
 is 140/90 mm Hg. D iffuse crackles are heard bilaterally. Her serum calcium concentration is 11.1 mg/dL, and serum 
 parathyroid hormone concentration is decreased. A chest x -ray shows bilateral hilar lymphadenopathy and interstitial 
@@ -455,21 +394,10 @@ infiltrates. Which of the following is the most likely cause of this patient's h
 
   
  
-35. A 55 -year-old woman comes to the clinic because of a 2 -month history of increasingly severe vaginal pain and itching 
-during sexual intercourse. She avoids intercourse with her husband because of the symptoms. She has been in a 
-monogamous relationship with her husband for the past 25 years. She has type 2 diabetes mellitus. Her vital signs are 
-within normal limits. Pelvic examination shows edematous and erythematous vaginal mucosa with white discharge. A 
-photomicrograph of a vaginal smear is shown. Which of the following is the most likely causal infectious agent?  
- 
-(A) Candida albicans  
-(B) Chlamydia trachomatis  
-(C) Herpes simplex virus  
-(D) Human papillomavirus  
-(E) Trichomonas vaginalis  
  
  
  
-36. A 24 -year-old woman is brought to the physician 1  month after she was involved in a motor vehicle collision that left 
+30. A 24 -year-old woman is brought to the physician 1  month after she was involved in a motor vehicle collision that left 
 her weak and unable to walk. Physical examination shows weakness of both hands and atrophy of the intrinsic hand 
 muscles bilaterally. Ther e is weakness and increased muscle tone of the lower extremities on passive range of motion. 
 Deep tendon reflexes are normal at the biceps and triceps bilaterally and are increased at the knees and ankles. Babinski 
@@ -486,12 +414,12 @@ is most likely located at which of the following spinal cord levels?
  
  
 
-37. A 45 -year-old man is brought to the emergency department 30 minutes after the sudden onset of crushing chest pain. His 
+31. A 45 -year-old man is brought to the emergency department 30 minutes after the sudden onset of crushing chest pain. His 
 father, maternal aunt, and paternal uncle all died of myocardial infarctions under the age of 50 years. Physical 
 examination shows tendinous xanthomas on the hands and thickened Achilles tendons. Serum lipid studies  show a total 
 cholesterol concentration of 410 mg/dL, HDL -cholesterol concentration of 30 mg/dL, and triglyceride concentration of 
 140 mg/dL. The diagnosis of myocardial infarction is made. This patient most likely has a deficiency of which of the 
-followin g? 
+following? 
  
 (A) Apo B48  
 (B) Apo C  
@@ -500,7 +428,7 @@ followin g?
 (E) Lipoprotein lipase activity  
  
  
-38. A previously healthy 19 -year-old man is brought to the emergency department 30  minutes after he collapsed while 
+32. A previously healthy 19 -year-old man is brought to the emergency department 30  minutes after he collapsed while 
 playing softball. He had severe, sharp, upper back pain prior to the game. He is 196  cm (6 ft 5 in) tall. His temperature 
 is 37°C (98.6°F), puls e is 130/min, respirations are 24/min, and blood pressure is 80/50  mm Hg. Physical examination 
 shows pallor and no jugular venous distention. Breath sounds are clear. The carotid pulses are weak. A grade 4/6, late 
@@ -514,7 +442,7 @@ cardiac findings?
 (E) Stretched aortic anulus  
  
  
-39. A 27 -year-old woman is brought to the emergency department because of a 2 -week history of double vision. Neurologic 
+33. A 27 -year-old woman is brought to the emergency department because of a 2 -week history of double vision. Neurologic 
 examination shows that the left eye does not adduct past the midline on horizontal gaze when the patient looks to the 
 right. Leftward horizo ntal gaze is normal. This patient's ocular movement deficit is most likely caused by damage to 
 which of the following structures?  
@@ -527,12 +455,10 @@ which of the following structures?
 (F) Right nucleus of the abducens nerve  
  
  
-40. A 45 -year-old woman is recovering from acute respiratory distress syndrome secondary to gallstone pancreatitis. A 
-drawing of the alveolar wall is shown. Which of the following labeled cells will most likely proliferate and reestablish 
-the injured epithelial layer in this patient?  
+
  
  
-41. An 11 -year-old girl is brought to the emergency department by her parents because of a 1 -week history of breast 
+34. An 11 -year-old girl is brought to the emergency department by her parents because of a 1 -week history of breast 
 enlargement. She has not had pain or nipple discharge. She has asthma treated with inhaled albuterol as needed. She 
 does not smoke cigarettes, d rink alcoholic beverages, or use illicit drugs. She is at the 50th  percentile for height and 
 weight. Vital signs are within normal limits. Examination of the breasts shows minimal enlargement under the areolae 
@@ -546,7 +472,7 @@ pubic hair. Which of the following best describes the sexual maturity rating for
 (E) 5  
  
  
-42. A 5-year-old boy is brought to the emergency department by his mother because of an episode of bloody stool 3  hours 
+35. A 5-year-old boy is brought to the emergency department by his mother because of an episode of bloody stool 3  hours 
 ago. The mother says the stool was hard "like pebbles" and she noted bright red blood on the tissue when the patient 
 cleaned himself. His pr evious bowel movement was 5  days ago. The patient has no abdominal or rectal pain now, but 
 he did have abdominal pain during his bowel movement 5  days ago. He has no history of major medical illness and 
@@ -564,7 +490,7 @@ likely cause of this patient's physical findings?
 (E) Intussusception  
  
  
-43. A 25 -year-old woman comes to the office because of a 3 -day history of fever, chills, severe headache, weakness, muscle 
+36. A 25 -year-old woman comes to the office because of a 3 -day history of fever, chills, severe headache, weakness, muscle 
 pain, loss of appetite, vomiting, diarrhea, and moderate abdominal pain. She is in nursing school and returned from a 
 medical missions trip in West Africa 10 days ago. Her symptoms began abruptly while she was shopping in a 
 super market after her return. Temperature is 39.0°C (102.2°F), pulse is 100/min, respirations are 22/min, and blood 
@@ -581,23 +507,11 @@ genome in this patient?
  
  
  
-    
- 
-44. A 56 -year-old man comes to the office because of a 1 -month history of pain and tingling of his hands and a 6 -month 
-history of paresthesia of his feet. As part of the workup, a nerve biopsy specimen is obtained and analyzed at the electron 
-microscopic level . The biopsy specimen shows marked loss of structures labeled by the X's in the photomicrograph of 
-a normal biopsy specimen shown. The loss of these structures is most likely to cause which of the following neurologic 
-findings in this patient?  
- 
-(A) Decreased sensitivity of the deep tendon reflex  
-(B) Impaired stereognosis  
-(C) Loss of pain and temperature sensation  
-(D) Muscle atrophy  
-(E) Vasoconstriction  
+     
  
  
  
-45. A 5-month -old boy is brought to the clinic by his mother because of a 10 -day history of “coughing spells” that occur 
+37. A 5-month -old boy is brought to the clinic by his mother because of a 10 -day history of “coughing spells” that occur 
 several times daily and last 1 to 2 minutes; he often vomits afterwards. He was delivered at term to a 16-year-old patient, 
 gravida 1, para 1, following an uncomplicated pregnancy and spontaneous vaginal delivery in Mexico. His parents 
 immigrated to the USA shortly after his birth. He has no history of major medical illness and receives no medications. 
@@ -618,7 +532,7 @@ wheezes or crackles are heard. A drug from which of the following classes is mos
  
  
 
-46. A 40 -year-old woman comes to the physician because of a runny nose, sneezing, and itching eyes on exposure to cats 
+38. A 40 -year-old woman comes to the physician because of a runny nose, sneezing, and itching eyes on exposure to cats 
 since childhood. Antiallergy drugs have not provided relief. Her symptoms improve with a program of desensitization 
 involving administration of increasing doses of the allergen. Which of the following is the most likely mechanism of the 
 beneficial effect of this treatment?  
@@ -630,7 +544,7 @@ beneficial effect of this treatment?
 (E) Stimulation of macrophages to produce anti -inflammatory cytokines  
  
  
-47. A 3-week -old girl delivered at term with no complications is brought to the physician by her mother because of a 1 -week 
+39. A 3-week -old girl delivered at term with no complications is brought to the physician by her mother because of a 1 -week 
 history of yellow eyes and skin, tan -colored stools, and dark brown urine. The newborn has been breast -feeding without 
 difficulty. She i s alert and appears to be in no distress. She is at the 50th percentile for length and weight. Physical 
 examination shows scleral icterus and jaundice. There is mild hepatomegaly; the spleen is not palpable. Laboratory 
@@ -656,7 +570,7 @@ Which of the following is the most likely diagnosis?
  
  
  
-48. A 65 -year-old woman comes to the physician for a follow -up examination after blood pressure measurements were 
+40. A 65 -year-old woman comes to the physician for a follow -up examination after blood pressure measurements were 
 175/105  mm Hg and 185/110  mm Hg 1 and 3 weeks ago, respectively. She has well -controlled type  2 diabetes mellitus. 
 Her blood pressure now is 175/1 10 mm Hg. Physical examination shows no other abnormalities. Antihypertensive 
 therapy is started, but her blood pressure remains elevated at her next visit 3  weeks later. Laboratory studies show 
@@ -674,7 +588,7 @@ Which of the following is the most likely diagnosis?
  
  
  
-49. A 46 -year-old woman comes to the physician because of a 1 -month history of fatigue, weakness, and palpitations. She 
+41. A 46 -year-old woman comes to the physician because of a 1 -month history of fatigue, weakness, and palpitations. She 
 has advanced kidney disease as a result of continued use of combination analgesics for low back pain. She has 
 hypertension well controlled with a loop diuretic, a β -adrenergic blocker, and a dihydropyridine calcium channel 
 blocker. She ha s a history of gastritis and hemorrhoids associated with occult blood in the stools. She is in no acute 
@@ -703,7 +617,7 @@ Which of the following is the most likely cause of this patient's anemia?
  
  
  
-50. A 46 -year-old woman comes to the physician because of a 3 -day history of intermittent pain with urination and increased 
+42. A 46 -year-old woman comes to the physician because of a 3 -day history of intermittent pain with urination and increased 
 urinary frequency. She says that she had one similar episode during the past 6  months. She also has had irregular menses, 
 and her last menstrual period occurred 2  months ago. She has not had fever, nausea, vomiting, or blood in her urine. She 
 is sexually active with one male partner. Physical examination shows no abnormalities. Urinalysis shows:  
@@ -724,20 +638,9 @@ Which of the following is the strongest predisposing risk factor for the develop
   
   
  
-51. A 37 -year-old man comes to the office because of a 3 -week history of itchy patches of skin and a burning sensation in 
-his feet. He works as a dishwasher and says he frequently works in wet shoes and socks. Vital signs are within normal 
-limits. Physical exa mination shows the findings in the photograph; these findings are also present on the soles of both 
-feet. The most appropriate pharmacotherapy for this patient will inhibit the activity of which of the following enzymes?  
- 
-(A) Chitin synthase  
-(B) 1,3 -β-D-Glucan synthase complex  
-(C) Phospholipase D  
-(D) Squalene monooxygenase  
-(E) Thymidylate synthase  
  
  
- 
-52. A 10 -year-old boy is brought to the emergency department in the middle of summer because of fever, headache, and 
+43. A 10 -year-old boy is brought to the emergency department in the middle of summer because of fever, headache, and 
 photophobia. Several of his camp mates have had a similar illness. Physical examination shows mild nuchal rigidity. A 
 lumbar puncture is perfor med. Laboratory studies show:  
  
@@ -760,20 +663,10 @@ Which of the following infectious agents is the most likely cause of these findi
 
   
  
-53. A 55 -year-old woman comes to the physician because of a 3 -week history of right shoulder pain that occurs when she is 
-lying on her right shoulder in bed. There is tenderness to palpation over the greater tubercle. An x -ray of the right 
-shoulder is shown; the arrows indicate a calcium deposit. Further examination of th is patient will most likely show 
-impairment of which of the following active shoulder movements?  
- 
-(A) Abduction  
-(B) Adduction  
-(C) External rotation  
-(D) Flexion  
-(E) Internal rotation  
  
  
  
-54. A 31 -year-old woman with a 5 -year history of fatigue comes to the physician for an initial visit. She has seen four other 
+44. A 31 -year-old woman with a 5 -year history of fatigue comes to the physician for an initial visit. She has seen four other 
 physicians for the same condition within the past 6  months, but no abnormalities were found. She gives the physician a 
 large folder th at contains her medical records. She says, "I can barely get out of bed most mornings, but nobody can 
 figure out why because all of my tests turn out normal. I really think I have chronic fatigue syndrome. What do you 
@@ -789,7 +682,7 @@ about it."
 underlying psychological cause of the symptoms."  
  
  
-55. A 28 -year-old man comes to the physician because of a 2 -month history of a rash on his wrists and hands. He is a first -
+45. A 28 -year-old man comes to the physician because of a 2 -month history of a rash on his wrists and hands. He is a first -
 year mortuary science student. He also works on his grandfather's farm each weekend. His hobbies include raising 
 homing pigeons and repai ring vintage motorcycles. He recently changed to a different type of laundry detergent to save 
 money. Physical examination shows a diffuse erythematous rash involving both hands up to the wrist creases. The rash 
@@ -803,7 +696,7 @@ does not extend over any other parts of the body. Which of the following is the 
  
  
 
-56. A 22 -year-old woman at 32 weeks’ gestation comes to the office for a prenatal visit. Vital signs are within normal limits. 
+46. A 22 -year-old woman at 32 weeks’ gestation comes to the office for a prenatal visit. Vital signs are within normal limits. 
 Fundal height and fetal heart tones are also normal. At the end of the examination, the patient tells the physician that her 
 friend i s a certified lay midwife and has recently convinced her to have a home birth. The patient asks the physician if 
 he would be the backup for the midwife in case of an emergency. Which of the following is the most appropriate initial 
@@ -816,7 +709,7 @@ response by the physicia n?
 (E) “Perhaps your midwife could act as your birth coach instead.”  
  
  
-57. A 36 -year-old woman with hypertension comes to the office because she thinks she may be “going through early 
+47. A 36 -year-old woman with hypertension comes to the office because she thinks she may be “going through early 
 menopause.” She has not had a menstrual period since her most recent office visit 6 months ago. During this time, she 
 also has been “gaining weight  around the middle” despite increased exercise; she has had a 6.3 -kg (14 -lb) weight gain. 
 She has no other history of major medical illness. Her only medication is lisinopril. She does not smoke, drink alcohol, 
@@ -832,7 +725,7 @@ most likely cause of the fetal abnormalities in this patient’s pregnancy is in
 (E) Maternal prostaglandin synthesis  
  
  
-58. A 67 -year-old man comes to the office because he is concerned about memory loss. He says he sometimes forgets the 
+48. A 67 -year-old man comes to the office because he is concerned about memory loss. He says he sometimes forgets the 
 names of acquaintances he sees while he is out shopping. He also has occasional word -finding difficulty and forgets to 
 buy some items when he goes shopping unless he makes a list. He lives alone and is able to manage his finances, cook, 
 and shop without help. He works part -time as an accountant. He has gastroesophageal reflux disease and hypertension. 
@@ -854,27 +747,10 @@ results and an MRI to be certain.”
  
  
    
-59. A 42 -year-old woman comes to the office because of a 1 -year history of a left breast mass. She had  been living in another 
-country for the past 2 years; a physician in that country told her that the  lesion was a cyst. Since returning to the USA 
-12 weeks ago, she has noticed that the mass has increased in size and is now so tender that any physical contact is 
-painful. She has not had any other breast masses, skin changes, or nipple ch anges. She has a history of cysts in both 
-breasts, and has  undergone aspirations of 2 prior cysts; pathologic examination both times showed no abnormalities. She 
-has a 1 -year history of yellow nipple discharge from both breasts and  premenstrual bilateral b reast pain. She has no other 
-history of serious illness and takes no medications. There is no family history of breast cancer. Vital signs are within 
-normal limits. Physical examination shows a 3 -cm, firm, extremely tender and partially mobile  mass in the upper outer 
-quadrant  of the left breast.  Mammography  shows a  3.1-cm, irregular mass in the left breast corresponding to the palpable 
-area of the mass. Photomicrographs of an excisional biopsy  specimen are shown.  Which of the following pathologic 
-findings m ost strongly suggests malignancy in this patient?  
- 
-(A) Compressed ducts  
-(B) Dense fibrosis  
-(C) Expanded ducts  
-(D) Multiple large and small cysts  
-(E) Pleomorphic irregular glands  
+
  
  
- 
-60. A 30 -year-old woman comes to the office  because of a 4 -day history of an increasingly severe, painful rash over her 
+49. A 30 -year-old woman comes to the office  because of a 4 -day history of an increasingly severe, painful rash over her 
 body and in her mouth. The rash began over her trunk area but  spread within a day to her face and extremities. Two  days 
 before development o f the rash, she had  flu-like symptoms with muscle aches and fatigue as well as a nonproductive 
 cough, sore throat, and runny nose. Ten days ago, she began treatment with trimethoprim -sulfamethoxazole for a urinary 
@@ -893,7 +769,7 @@ lymphocytic infiltration within the superficial dermis. Which of the following i
 (E) Toxic epidermal necrolysis  
  
  
-61. A 78 -year-old woman is admitted to the hospital because of a 1 -week history of jaundice. CT scan of the abdomen shows 
+50. A 78 -year-old woman is admitted to the hospital because of a 1 -week history of jaundice. CT scan of the abdomen shows 
 a mass suggestive of pancreatic cancer. Three hours later, the on -call physician enters the patient's room to discuss the 
 prognosis and ob tain consent for a biopsy scheduled for the next morning. On entering the room, the physician greets 
 the patient and her husband. The physician then learns that the patient speaks only Mandarin. Her husband is fluent in 
@@ -907,7 +783,7 @@ following is the most appropriate next step in manag ement?
 (D) Use a telephone interpreter service  
  
  
-62. Results of a study that examined the impact of risk factors on cardiovascular health are being evaluated. In the study, 
+51. Results of a study that examined the impact of risk factors on cardiovascular health are being evaluated. In the study, 
 serum LDL -cholesterol (LDL) concentration is found to have a correlation of 0.6 with serum high -sensitivity C -reactive 
 protein (hs -CRP) concentration. Which of the following statements best describes the relationship between LDL 
 concentration and hs -CRP co ncentration based on this finding?  
@@ -923,21 +799,10 @@ concentration and hs -CRP co ncentration based on this finding?
  
   
  
-63. A 45 -year-old man comes to the physician because of a 10 -year history of heartburn that occurs after he eats late at night 
-or consumes spicy food. He has had no weight loss or difficulty swallowing. He takes over -the-counter antacids as 
-needed, but they re lieve his discomfort only temporarily. Physical examination shows no abnormalities. An endoscopy 
-is done. The distal esophagus is shown in the photograph. Which of the following is the most likely cause of this patient's 
-symptoms?  
- 
-(A) Defect in secretin production  
-(B) Excessive gastrin production  
-(C) Excessive transient lower esophageal relaxations  
-(D) Failure of primary esophageal peristalsis  
-(E) Failure of saliva production  
  
  
  
-64. A 72 -year-old man comes to the physician for a health maintenance examination. He has no personal or family history 
+52. A 72 -year-old man comes to the physician for a health maintenance examination. He has no personal or family history 
 of major medical illnesses. He has never smoked cigarettes. Pulse oximetry on room air shows an oxygen saturation of 
 98%. Physical examinati on shows plethoric skin and splenomegaly. Laboratory studies show:  
  
@@ -963,23 +828,10 @@ occurred in which of the following cells?
  
  
  
-65. A 35 -year-old man is brought to the emergency department 30 minutes after he sustained a cut on his hand while loading 
-cargo at his job. He lives alone and takes most of his meals at a local restaurant. He eats mostly snack foods at the bar 
-and fast food. He drinks four to six 12 -oz beers daily and double that amount on weekends. He takes no medications. 
-Physical examination shows a 3 -cm laceration on the right hand that is bleeding stea dily. Laboratory studies show a 
-hemoglobin concentration of 11 g/dL, leukocyte count of 4000/mm3, and platelet count of 150,000/mm3. A 
-photomicrograph of a peripheral blood smear is shown. A deficiency of which of the following is the most likely cause 
-of this patient's anemia?  
- 
-(A) Folic acid  
-(B) Glucose -6-phosphate dehydrogenase  
-(C) Iron  
-(D) Vitamin B 1 (thiamine)  
-(E) Vitamin B 6 (pyridoxine)  
  
  
  
-66. A 3800 -g (8-lb 6-oz) newborn is delivered vaginally at 39 weeks' gestation after an uncomplicated pregnancy. Apgar 
+53. A 3800 -g (8-lb 6-oz) newborn is delivered vaginally at 39 weeks' gestation after an uncomplicated pregnancy. Apgar 
 scores are 9 and 9 at 1 and 5 minutes, respectively. The newborn is crying, has pink skin, and appears vigorous. Physical 
 examination shows a vagina and also a structure that appears to be a penis, with the urethra located at the base near  the 
 opening of the vagina. Chromosomal analysis is ordered. Which of the following is the most likely cause of the intersex 
@@ -995,7 +847,7 @@ findings in this newborn if the karyotype is found to be 46,XX?
  
 
  
-67. An 80 -year-old woman is brought to the emergency department (ED) 30  minutes after she fell out of her wheelchair at 
+54. An 80 -year-old woman is brought to the emergency department (ED) 30  minutes after she fell out of her wheelchair at 
 home. This is the second visit to the ED for a fall during the past 3  months. She lives with her daughter and son -in-law, 
 who say they “do t he best we can.” The patient has dementia, Alzheimer type, coronary artery disease, type  2 diabetes 
 mellitus, and hypertension. Current medications are amlodipine, aspirin, atorvastatin, donepezil, long -acting insulin, and 
@@ -1016,18 +868,10 @@ abnormalities are noted. Which of the following is the most appropriate initial 
  
  
  
-68. A healthy 26 -year-old man with red -green color blindness marries a woman whose father also has red -green color 
-blindness. A pedigree is shown. Which of the following best predicts the risk that a son of this couple will be affected?  
- 
-(A) 0%  
-(B) 25%  
-(C) 50%  
-(D) 75%  
-(E) 100%  
  
  
  
-69. A 25 -year-old woman comes to the physician because of a long history of pain with menses. The pain occurs on the first 
+55. A 25 -year-old woman comes to the physician because of a long history of pain with menses. The pain occurs on the first 
 day of her 5 -day menstrual period and lasts all day. She rates the pain as 10 on a 10 -point scale. The most appropriate 
 initial pharmacot herapy to relieve this patient's pain has which of the following mechanisms of action?  
  
@@ -1040,20 +884,10 @@ initial pharmacot herapy to relieve this patient's pain has which of the followi
 
   
  
-70. A 56 -year-old woman comes to the physician because of a 2 -year history of recurrent urinary tract infections 
-accompanied by left flank pain. Physical examination shows no abnormalities. Renal ultrasonography shows left -sided 
-hydronephrosis. A T2 -weighted c oronal MRI of the abdomen is shown; the arrow indicates the hydronephrosis. The left 
-renal collecting system is most likely obstructed at which of the following anatomic locations in this patient?  
- 
-(A) Bladder neck  
-(B) Mid ureter  
-(C) Renal calyx  
-(D) Ureteropelvic junction  
-(E) Ureterovesical junction  
  
  
  
-71. A randomized clinical trial is conducted to compare wound healing and cosmetic differences between two surgical 
+56. A randomized clinical trial is conducted to compare wound healing and cosmetic differences between two surgical 
 procedures for closing skin wounds following cesarean delivery. A total of 1000 women undergoing cesarean delivery 
 during a 6 -month period are enrolled in the study, which was 85% of the total number of patients undergoing the 
 procedure. The results show a wound infection rate of 12 cases per 1000 women for Procedure A and 18 cases per 1000 
@@ -1071,20 +905,11 @@ following Procedur e A compared with Procedure B?
 
   
  
-72. A 52 -year-old man is admitted to the hospital because of a 2 -hour history of vomiting bright red blood. His pulse is 
-125/min, and blood pressure is 90/60 mm Hg. Physical examination shows jaundice and visible blood vessels 
-surrounding the umbilicus. CT sca ns of the abdomen are shown. To decrease portal venous pressure in this patient, it is 
-most appropriate to place a shunt between the portal vein and which of the following additional vessels?  
- 
-(A) Inferior mesenteric vein  
-(B) Inferior vena cava  
-(C) Left gastric vein  
-(D) Splenic vein  
-(E) Superior mesenteric vein  
+
  
  
  
-73. A 58-year-old man with chronic obstructive pulmonary disease comes to the clinic with his wife for a follow -up 
+57. A 58-year-old man with chronic obstructive pulmonary disease comes to the clinic with his wife for a follow -up 
 examination. He has smoked one pack of cigarettes daily for 35  years. He has tried to quit smoking twice but was 
 unsuccessful both times. At today’ s visit, when the physician asks the patient about smoking cessation, he says he is not 
 ready to do so. The patient’s wife states her husband’s smoking makes her cough and gives her chest tightness. Which 
@@ -1097,7 +922,7 @@ of the following is the most appropriate physician statement?
 (E) "Why haven't you been able to stay off cigarettes?"  
  
  
-74. Seven days after admission to the psychiatric unit for treatment of eating disorders, a hospitalized 20 -year-old woman 
+58. Seven days after admission to the psychiatric unit for treatment of eating disorders, a hospitalized 20 -year-old woman 
 has a 2 -day history of moderate mouth pain on the inside of both cheeks. She also reports feeling "worthless and fat." 
 Fluoxetine was sta rted on admission. She appears distressed. She is 170 cm (5 ft 7 in) tall and weighs 77 kg (170 lb); 
 BMI is 27 kg/m2. Vital signs are within normal limits. Physical examination shows bilateral swelling of the parotid and 
@@ -1113,7 +938,7 @@ symptoms?
 (E) Interference with bacterial wall synthesis  
  
  
-75. A 35 -year-old woman, gravida 2, para 1, at 15 weeks’ gestation is brought to the hospital in active labor. The physician 
+59. A 35 -year-old woman, gravida 2, para 1, at 15 weeks’ gestation is brought to the hospital in active labor. The physician 
 care team confers and determines that the birth cannot be prevented and that the fetus will not survive. After explaining 
 this fact to the patient, the patient says, "I know it is a long shot, but I still want my baby resuscitated and everything 
 done to save him." After empathizing with the patient, which of the following is the most appropriate initial response by 
@@ -1126,7 +951,7 @@ the physician?
 (E) "I’m very sorry, but the baby will not survive."  
  
  
-76. A 48 -year-old man who is a contractor interpreter working for the military at a US outpost in Afghanistan comes to the 
+60. A 48 -year-old man who is a contractor interpreter working for the military at a US outpost in Afghanistan comes to the 
 medical clinic because of a 20 -day history of nonhealing, painless ulcers on his neck and arms. The lesions enlarged 
 over time and began to express clear fluid, eventually forming shallow ulcers. When the symptoms began, he was 
 sleeping on a mattress on the floor in an old building without air conditioning where the ambient temperature ranged 
@@ -1142,7 +967,7 @@ the lesions in this patient?
 (E) Tick  
  
  
-77. A 17 -year-old boy is  brought to the clinic for a follow -up examination. He has been evaluated for three episodes of full -
+61. A 17 -year-old boy is  brought to the clinic for a follow -up examination. He has been evaluated for three episodes of full -
 body weakness at the ages of 13, 16, and 17 years. Each episode occurred when he lay down after playing in a football 
 scrimmage. The weakness improved spon taneously during the next 6 hours; he was asymptomatic by the time he was 
 evaluated by medical personnel. The patient attributes the episodes to eating "a lot of pasta and salty foods" prior to 
@@ -1158,7 +983,7 @@ concentrations is most likely to be abnormal if measured during one of this pati
 (E) Sodium  
  
  
-78. A 3-day-old female newborn is brought to the hospital because of a yellowish, milky fluid leaking from both nipples. 
+62. A 3-day-old female newborn is brought to the hospital because of a yellowish, milky fluid leaking from both nipples. 
 She was delivered at term to a 20 -year-old woman. Pregnancy and delivery were uncomplicated. Examination of the 
 newborn is otherwise unrema rkable. Which of the following hormones is the most likely cause of this finding?  
  
@@ -1173,19 +998,9 @@ newborn is otherwise unrema rkable. Which of the following hormones is the most 
 
   
  
-79. A 74 -year-old man comes to the office for a follow -up examination 1 month after he was discharged from the hospital 
-following a cardiac valve replacement operation. Physical examination shows a healing median sternotomy wound. A 
-prosthetic click is heard. PA and lateral chest x -rays are shown; the arrows indicate the replaced cardiac valve. Based 
-on these findings, which of the following cardiac valves was most likely replaced in this patient?  
- 
-(A) Aortic  
-(B) Mitral  
-(C) Pulmonic  
-(D) Tricuspid  
  
  
- 
-80. A 37 -year-old man who is a carpenter is brought to the emergency department 45  minutes after the sudden onset of fever, 
+63. A 37 -year-old man who is a carpenter is brought to the emergency department 45  minutes after the sudden onset of fever, 
 shortness of breath, and palpitations. Four days ago, he sustained a puncture wound to his left hand; he treated the wound 
 with antibact erial cream and a bandage. His temperature is 39°C  (102.2°F), pulse is 120/min, respirations are 28/min, 
 and blood pressure is 100/60  mm Hg. Examination of the left hand shows diffuse swelling, erythema, and a 2 -cm, 
@@ -1201,7 +1016,7 @@ less than 32  mm Hg. Which of the following is the most likely infectious agent 
 
  
  
-81. A 45 -year-old woman comes to the office for a follow -up examination 2 weeks after she sustained a vertebral fracture at 
+64. A 45 -year-old woman comes to the office for a follow -up examination 2 weeks after she sustained a vertebral fracture at 
 L1. The fracture occurred spontaneously and there is no history of trauma to the area or other fractures. She gained 27 
 kg (60 lb) during the 6 months before the fracture occurred. Her only medication is hydromorphone as needed for pain. 
 She is 163 cm (5 ft 4 in) tall and now weighs 100 kg (220 lb); BMI is 38 kg/m2. Temperature is 37.0°C (98.6°F), pulse 
@@ -1229,7 +1044,7 @@ The most likely cause of the fracture in this patient is an increase in which of
  
  
  
-82. A 25 -year-old woman comes to the emergency department because of a 3 -hour history of fever, severe headache, light -
+65. A 25 -year-old woman comes to the emergency department because of a 3 -hour history of fever, severe headache, light -
 headedness, dizziness, shaking chills, and muscle aches. Five hours ago, she was diagnosed with Lyme disease and 
 began doxycycline therapy. She has no other history of serious illness and takes no other medications. Menses occur at 
 regular 28 -day intervals. She is currently menstruating and using a tampon. She appears anxious. Temperature is 37.0°C 
@@ -1245,7 +1060,7 @@ condition?
 (E) Secretion of bacterial endotoxins  
  
  
-83. A newborn delivered at 36 weeks' gestation to a 22 -year-old woman, gravida 1, para 1, has difficulty feeding and 
+66. A newborn delivered at 36 weeks' gestation to a 22 -year-old woman, gravida 1, para 1, has difficulty feeding and 
 listlessness. The mother received no prenatal care. Spontaneous vaginal delivery was uncomplicated. The mother's only 
 medication was a prenatal  vitamin. The newborn's length is 49 cm (19 in; 39th percentile), and weight is 3100 g (6 lb 
 13 oz; 30th percentile); head circumference is 33 cm (13 in; 12th percentile). Temperature is 37.0°C (98.6°F), pulse is 
@@ -1271,7 +1086,7 @@ The most appropriate pharmacotherapy for this patient targets which of the follo
  
  
  
-84. A 60 -year-old woman is brought to the emergency department because of a 4 -day history of fever, joint aches, and rash. 
+67. A 60 -year-old woman is brought to the emergency department because of a 4 -day history of fever, joint aches, and rash. 
 Three weeks ago, she was admitted to the hospital for treatment of Staphylococcal aureus  endocarditis. She has received 
 21 days out of a prescribed 42 -day course of intravenous oxacillin. Currently, she appears to be in mild distress. 
 Temperature is 38.0°C (100.4°F), pulse is 115/min, respirations are 24/min, and blood pressure is 120/70 mm H g. Pulse 
@@ -1311,7 +1126,7 @@ patient's condition?
 
   
  
-85. A 48 -year-old man comes to the physician requesting treatment for alcohol withdrawal. He reports a 30 -year history of 
+68. A 48 -year-old man comes to the physician requesting treatment for alcohol withdrawal. He reports a 30 -year history of 
 consuming 6 to 10 beers daily. He has had two citations for driving while intoxicated. He has previously experienced 
 alcohol -associated se izures and withdrawal symptoms. His vital signs are within normal limits. Physical examination 
 shows palmar erythema. The most appropriate pharmacotherapy in this patient most likely has which of the following 
@@ -1327,7 +1142,7 @@ mechanisms?
 (H) Stimulation of 5 -hydroxytryptophan receptors  
  
  
-86. A 6-year-old girl is brought to the office because of two episodes of vaginal bleeding during the past 2 months. She has 
+69. A 6-year-old girl is brought to the office because of two episodes of vaginal bleeding during the past 2 months. She has 
 no history of serious illness and receives no medications. She does not appear to be in distress. She is at the 60th 
 percentile for hei ght, 40th percentile for weight, and 35th percentile for BMI. Vital signs are within normal limits. 
 Physical examination discloses palpable breast buds and minimal coarse, pigmented hair on the labia. The remainder of 
@@ -1350,7 +1165,7 @@ Which of the following is the most likely cause of this patient's condition?
  
  
  
-87. A previously healthy 64 -year-old man is brought to the emergency department 3 hours after the sudden onset of severe 
+70. A previously healthy 64 -year-old man is brought to the emergency department 3 hours after the sudden onset of severe 
 flank pain. He has no history of similar pain or serious illness. He takes no medications. He appears to be in distress. 
 His pulse is 100/m in, and blood pressure is 168/92 mm Hg. Physical examination shows a soft abdomen with left -sided 
 tenderness. Urinalysis shows microscopic hematuria. A CT scan of the abdomen shows a small ureteric calculus. 
@@ -1366,20 +1181,10 @@ found. Which of the following processes is most likely impaired in this patient?
   
   
  
-88. A 65 -year-old woman has congestive heart failure for which she is treated with an appropriate drug regimen including 
-an ACE inhibitor. Because of insufficient improvement in her symptoms of dyspnea on exertion and edema, the 
-physician prescribes a second a gent that results in hyperkalemia. This adverse effect most likely resulted from a drug 
-that targets which of the following labeled locations in the diagram of a nephron?  
- 
-(A) A  
-(B) B  
-(C) C  
-(D) D  
-(E) E  
  
  
  
-89. Patient Information  
+71. Patient Information  
 Age:  34 years  
 Gender:  M, self -identified  
 Race/Ethnicity:  unspecified  
@@ -1405,21 +1210,9 @@ blood is negative. Treatment with which of the following enzymes is most likely 
 
   
  
-90. A previously healthy 65 -year-old woman comes to the physician because of several episodes of fainting during the past 
-2 months. Each episode lasted several minutes. Her pulse is 82/min, respirations are 20/min, and blood pressure is 
-135/87  mm Hg. Cardiac e xamination shows S 3 and S 4. Echocardiography shows a pedunculated intracardiac mass. The 
-lesion is resected. A photomicrograph of the resected lesion is shown. This lesion was most likely obtained from which 
-of the following locations?  
- 
-(A) Interventricular septum  
-(B) Left atrium  
-(C) Left ventricle  
-(D) Right atrium  
-(E) Right ventricle  
  
  
- 
-91. A 4-year-old girl with type 1 diabetes mellitus is brought to the emergency department by her father because of a 4 -hour 
+72. A 4-year-old girl with type 1 diabetes mellitus is brought to the emergency department by her father because of a 4 -hour 
 episode of restlessness, sweating, and confusion that occurred during the night. Yesterday, he allowed her to eat cupcakes 
 and cotton c andy at a county fair. At her bedtime that evening, he increased her dose of subcutaneous intermediate -
 acting and long -acting insulin. Her symptoms began 6 hours later, then resolved spontaneously. After being informed 
@@ -1441,20 +1234,10 @@ likely explanation for this patient's nighttime symptoms?
 
   
  
-92. A 75 -year-old woman comes to the physician because of a 3 -year history of pain in her wrists and hands. She says that 
-the pain has become more severe during the past 3 months. She has difficulty buttoning her coat because of the pain. 
-Physical examination shows the findings in the photograph. Which of the following additional hand findings is most 
-likely in this patient?  
- 
-(A) Cortical thinning  
-(B) Degenerative changes of the cartilage  
-(C) Inflammation of digital tendons  
-(D) Neutrophilic infiltration of the synovium  
-(E) Thickening of the synovium with pannus  
+
  
  
- 
-93. A 66 -year-old man who was recently diagnosed with Parkinson disease comes to the physician for a follow -up 
+73. A 66 -year-old man who was recently diagnosed with Parkinson disease comes to the physician for a follow -up 
 examination. Carbidopa -levodopa therapy was initiated at the time of diagnosis. The patient tells the physician that he 
 still has episodes during which he "freezes." He has a clumsy gait, and there is rigidity of his upper extremi ties and 
 hands. An adjunct therapy designed to inhibit which of the following enzymes is most likely indicated in this patient?  
@@ -1466,7 +1249,7 @@ hands. An adjunct therapy designed to inhibit which of the following enzymes is 
 (E) Tyrosine hydroxylase  
  
  
-94. A 2-week -old male newborn is brought to the office for a well -child examination. He was delivered following an 
+74. A 2-week -old male newborn is brought to the office for a well -child examination. He was delivered following an 
 uncomplicated, spontaneous vaginal delivery at 41  weeks' gestation. The mother has no history of serious illness and 
 did not receive prenatal car e. Her only medication is a prenatal vitamin. She has consumed large amounts of vodka 
 nightly for 10  years. Which of the following examination findings is most likely to be present in this patient?  
@@ -1479,7 +1262,7 @@ nightly for 10  years. Which of the following examination findings is most likel
  
  
 
-95. Patient Information  
+75. Patient Information  
 Age:  16 years  
 Gender: M, self -identified  
 Race/Ethnicity:  Hispanic, self -identified  
@@ -1539,47 +1322,10 @@ Question:  Which of the following is the most likely underlying cause of this pa
 
   
  
-96. A 57 -year-old man with chronic low back pain comes to the office for a routine health maintenance examination. The 
-patient's last visit to the office was 2 years ago, and today he says he is "doing about the same," except for an 
-unintentional 10 -kg (22 -lb) weight gain. He attributes the weight gain to inability to exercise because of his back pain, 
-and he is now considering applying for disability benefits. He was evaluated by a back pain specialist 3 months ago and 
-underwent an MRI of the lumbar spine at t hat time; however, he says he did not understand the specialist's explanation 
-regarding the MRI results and requests further explanation. Medical history also is remarkable for hyperlipidemia, 
-seasonal allergies, and opioid use disorder; he has not used op ioids of any kind since he stopped prescription oxycodone 
-use 5 years ago. Routine medications are atorvastatin, diclofenac, and loratadine. He develops skin flushing when taking 
-niacin, but he has no known drug allergies. He has smoked two packs of cigare ttes daily for 25 years. He previously 
-drank two beers daily, but he has not consumed any alcoholic beverages or used any recreational drugs for the past 5 
-years. He is 178 cm (5 ft 10 in) tall and weighs 104 kg (230 lb); BMI is 33 kg/m2. Vital signs are within normal limits; 
-blood pressure is 128/70 mm Hg. While standing, the patient leans forward slightly. Range of motion on lumbar 
-extension and flexion is decreased. The remainder of the examination discloses no abnormalities. Results o f fasting 
-serum stu dies are shown:  
- 
-Na+ 140 mEq/L  
-K+ 4.7 mEq/L  
-Cl− 100 mEq/L  
-HCO 3− 24 mEq/L  
-Urea nitrogen  15 mg/dL  
-Creatinine  0.7 mg/dL  
- 
 
- Cholesterol    
- Total  230 mg/dL  
- HDL  60 mg/dL  
- LDL  154 mg/dL  
-Triglycerides  80 mg/dL  
- 
-MRI of the lumbar spine is shown. Which of the following factors in this patient's history most strongly contributed to 
-the MRI findings?  
- 
-(A) Alcohol consumption  
-(B) Cigarette smoking  
-(C) Diclofenac use  
-(D) Loratadine use  
-(E) Opioid use  
  
  
- 
-97. A 15 -year-old boy is brought to the office by his parents to discuss results of a biopsy done 3 days ago for a rapidly 
+76. A 15 -year-old boy is brought to the office by his parents to discuss results of a biopsy done 3 days ago for a rapidly 
 enlarging neck mass. He first noted the mass 1 month ago. Two weeks ago, he was evaluated for an episode of prolonged 
 epistaxis and was found to have a right ear effusion, which was treated with amoxicillin -clavulanic acid. He has no other 
 history of serious illness and takes no medica tions. Height is at the 10th percentile, weight is at the 50th percentile, and 
@@ -1594,7 +1340,7 @@ agents is the most likely underlying cause of this patient's current condit ion?
 (D) Human herpesvirus 8  
  
  
-98. A 48 -year-old woman with type 2 diabetes mellitus comes to the physician for a follow -up examination. Current 
+77. A 48 -year-old woman with type 2 diabetes mellitus comes to the physician for a follow -up examination. Current 
 medications are metformin and once -daily insulin. She travels frequently and works long hours. She says that her meals 
 are usually fast food. She leads a sedentary lifestyle. She often forgets to measure her blood glucose concentration. Her 
 last hemoglobin A 1c was measured as 8.4%. Which of the following is the most appropriate action by the physician to 
@@ -1609,7 +1355,7 @@ help this patient improve her diabetic control?
 (G) Refer the patient to a nutritionist  
  
  
-99. A 74 -year-old woman with a history of coronary artery disease is brought to the emergency department 30  minutes after 
+78. A 74 -year-old woman with a history of coronary artery disease is brought to the emergency department 30  minutes after 
 the sudden onset of crushing chest pain. Her pulse is 120/min, and systolic blood pressure is 70  mm Hg. An ECG shows 
 sinus rhythm with ST elevation in leads V 1 through V 3. The physician plans to administer a drug to increase the patient's 
 blood pressure without increasing her pulse. Which of the following drugs is most appropriate for this patient?  
@@ -1620,7 +1366,7 @@ blood pressure without increasing her pulse. Which of the following drugs is mos
 (D) Norepinephrine  
 (E) Phenylephrine  
 
-100. A 2-month -old girl is  admitted to the hospital because of severe pneumonia. She has a history of mucocutaneous 
+79. A 2-month -old girl is  admitted to the hospital because of severe pneumonia. She has a history of mucocutaneous 
 candidiasis and chronic diarrhea. Her pulse is 160/min, and respirations are 40/min. Crackles are heard over both lung 
 fields. Her leukocyte count is 5400/mm3 (N=5000 –19,500), with 86% segmented neutrophils, 6% lymphocytes, and 8% 
 monocytes. Immunologic testing of a specimen obtained via bronchoscopy is positive for Pneumocystis jirovecii . Flow 
@@ -1635,7 +1381,7 @@ of characteristic rearrangements. The most likely cause of these findings is an 
 (E) Recombination -activating gene 1 (RAG1) and RAG2  
  
  
-101. A 25 -year-old woman, gravida 1, para 1, comes to the office because of a 2 -week history of palpitations and heat 
+80. A 25 -year-old woman, gravida 1, para 1, comes to the office because of a 2 -week history of palpitations and heat 
 intolerance. She delivered her child 3 months ago following an uncomplicated pregnancy and delivery. She is breast -
 feeding. She has no history of serious illness and takes no medications. She is 163 cm (5 ft 4 in) tall and weighs 54 kg 
 (120 lb); BMI is 21 kg/m2. Temperature is 37°C (98.6°F), pulse is 106/min, respirations are 20/min, and blood pressure 
@@ -1652,20 +1398,11 @@ concentration of 275 ng/dL. Which of the following is the most likely mechanism 
  
  
  
- 
-102. A 53 -year-old woman comes to the office because of a 6 -year history of stiffness and pain of her hands. She has difficulty 
-buttoning her clothes because of the symptoms. She takes no medications. Physical examination shows the findings in 
-the photograph. A n abnormality of which of the following is most likely to confirm the diagnosis in this patient?  
- 
-(A) Anti -citrullinated peptide antibody  
-(B) Antimitochondrial antibody assay  
-(C) Human leukocyte antigen -DQ2 antibody assay  
-(D) Precursor of the erythroid cell line  
-(E) Precursor of the thrombopoietic line  
+
  
  
 
-103. A 73 -year-old woman comes to the emergency department because of a 6 -hour history of severe abdominal pain. She 
+81. A 73 -year-old woman comes to the emergency department because of a 6 -hour history of severe abdominal pain. She 
 has chronic atrial fibrillation and underwent placement of a prosthetic mitral valve 4  years ago. Her pulse is 120/min 
 and irregularly irregular, and blood pressure is 80/60  mm Hg. Arteriography shows an embolus in the superior 
 mesenteric artery lodged just beyond the patent middle colic artery. A laparotomy is done . During this procedure, which 
@@ -1678,7 +1415,7 @@ of the following segments of the abdominal viscera is most likely to appear norm
 (E) Proximal jejunum  
  
  
-104. A 2-year-old boy is brought to the physician because of failure to thrive. He also has had loose, fatty, foul -smelling stools 
+82. A 2-year-old boy is brought to the physician because of failure to thrive. He also has had loose, fatty, foul -smelling stools 
 and a cough during the past 2 weeks. He is at the 30th percentile for height and 10th percentile for weight. Physical 
 examination shows no other abnormalities. Laboratory studies show steatorrhea and a sweat chloride concentration of 
 80 mmol/L. A chest x -ray shows hyperinflation. Sputum culture grows Haemophilus influenzae  and Staphylococcus 
@@ -1691,7 +1428,7 @@ aureus . Secretion of which of the followin g substances is most likely to be de
 (E) Intrinsic factor  
  
  
-105. A 73 -year-old man is brought to the emergency department by his family 1  hour after he walked into the left side of a 
+83. A 73 -year-old man is brought to the emergency department by his family 1  hour after he walked into the left side of a 
 door frame when leaving his bedroom and then tripped over a chair that was on his left side. Visual field testing shows 
 left lower quadran tanopia. When tactile stimuli are presented on both the left and right sides simultaneously, the patient 
 correctly identifies only the ones on the right. Further examination shows no motor or language deficits. Proprioception 
@@ -1705,7 +1442,7 @@ is intact. This patient most l ikely has a brain lesion in which of the followin
 (F) Right temporal  
  
  
-106. A 10 -year-old boy is brought to the physician because of a 3 -week history of nosebleeds and easy bruisability. His older 
+84. A 10 -year-old boy is brought to the physician because of a 3 -week history of nosebleeds and easy bruisability. His older 
 brother has had similar episodes. He is at the 30th percentile for height and weight. Physical examination shows nasal 
 and gingival bleeding and several ecchymoses over the trunk and upper and lower extremities in various stages of 
 healing. Laboratory studies show a platelet count of 300,000/mm3 (N=150,000 –400,000). Platelet adhesion testing 
@@ -1722,7 +1459,7 @@ of the following is the most likely cause of the findings in this patient?
  
  
  
-107. A previously healthy 45 -year-old woman who works as a park ranger comes to the physician because of a 1 -week history 
+85. A previously healthy 45 -year-old woman who works as a park ranger comes to the physician because of a 1 -week history 
 of shortness of breath, even at rest. She has lived in the mountains at 10,000 feet above sea level for 2 years; the 
 physician’s office is located at sea level. Her pulse is 85/min, respirations are 18/min, and blood pressure is 125/90 mm 
 Hg. Physical examination while sitting upright shows jugular venous distention and 2+ pedal edema. During the past 2 
@@ -1736,7 +1473,7 @@ years, which of the following has most likely decreased in this patient?
 (F) Right ventricular wall thickness  
  
  
-108. A 5-year-old girl is brought to the office by her mother because of a 6 -hour history of bloody diarrhea. She is interactive 
+86. A 5-year-old girl is brought to the office by her mother because of a 6 -hour history of bloody diarrhea. She is interactive 
 and in no acute distress. Her blood pressure is 90/55 mm Hg. Abdominal examination shows normoactive bowel sounds. 
 Stool cultures ar e obtained, and the patient's mother is advised to give the girl plenty of fluids. Five days later, the patient 
 develops decreased urine output and is brought back to the office. Her blood pressure is now 135/88 mm Hg. Physical 
@@ -1757,7 +1494,7 @@ Which of the following infectious agents is the most likely cause of these findi
  
  
  
-109. A 78 -year-old woman is admitted to the intensive care unit because of diverticulitis complicated by Escherichia coli  
+87. A 78 -year-old woman is admitted to the intensive care unit because of diverticulitis complicated by Escherichia coli  
 sepsis. Treatment with ciprofloxacin is started. Three days later, her serum creatinine concentration has increased from 
 0.7 mg/dL on admission to 1.3 mg/dL. Urinalysis shows muddy brown casts. The most likely cause of the findings in 
 this patient is isch emia of which of the following structures?  
@@ -1769,7 +1506,7 @@ this patient is isch emia of which of the following structures?
 (E) Renal vein  
  
  
-110. A 19 -year-old man who is a college freshman comes to the office because of a 4 -day history of tender, swollen glands. 
+88. A 19 -year-old man who is a college freshman comes to the office because of a 4 -day history of tender, swollen glands. 
 He also has a 6 -day history of fever, malaise, and decreased appetite. His temperature is 38.7°C (101.7°F). Physical 
 examination shows swe lling of the parotid glands. Which of the following infectious agents is the most likely cause of 
 these findings?  
@@ -1781,7 +1518,7 @@ these findings?
 (E) Rubella virus  
   
 
-111. A 34 -year-old woman with myasthenia gravis comes to the emergency department because of a 2 -day history of 
+89. A 34 -year-old woman with myasthenia gravis comes to the emergency department because of a 2 -day history of 
 increasing weakness, shortness of breath, and abdominal cramping. Current medications are prednisone and 
 pyridostigmine. Her temperature is 37°C (98. 6°F), pulse is 45/min, and respirations are 25/min and shallow. Her voice 
 is soft and hypernasal, and she coughs weakly when swallowing water. Breath and heart sounds are normal. Pulmonary 
@@ -1797,7 +1534,7 @@ patient's weakness?
 (E) Pyridostigmine overdose  
  
  
-112. A 35 -year-old woman comes to the office because she has had three first -trimester spontaneous abortions during the past 
+90. A 35 -year-old woman comes to the office because she has had three first -trimester spontaneous abortions during the past 
 3 years. Physical examination shows no abnormalities. Laboratory studies show no endocrine abnormalities. 
 Chromosomal analysis shows a paracentric inversion of the long arm of chromosome 1. Which of the following best 
 describes th is patient’s risk for early spontaneous abortions and a liveborn child with aneuploidy?  
@@ -1811,7 +1548,7 @@ describes th is patient’s risk for early spontaneous abortions and a liveborn 
  
  
  
-113. A 25 -year-old man comes to the office because of a 4 -hour history of irritability, restlessness, tremor, and palpitations. 
+91. A 25 -year-old man comes to the office because of a 4 -hour history of irritability, restlessness, tremor, and palpitations. 
 He is a known user of amphetamines. His pulse is 120/min, respirations  are 25/min, and blood pressure is 150/100 mm 
 Hg. Physical examination shows no a bnormalities. The most likely cause of this patient's symptoms is sympathomimetic 
 activity arising from which of the following?  
@@ -1824,7 +1561,7 @@ activity arising from which of the following?
 (F) Increased release of biogenic amines  
  
  
-114. A 14 -year-old boy is brought to the office by his mother because of a 1 -week history of seizures and difficulty walking. 
+92. A 14 -year-old boy is brought to the office by his mother because of a 1 -week history of seizures and difficulty walking. 
 Physical examination shows decreased sensation over the hands and feet and generalized weakness. He walks with an 
 ataxic gait. A muscle  biopsy specimen shows coarsely granular fibers that stain red with Gomori trichrome stain. This 
 patient most likely has a genetic defect that most directly affects the synthesis of which of the following?  
@@ -1838,21 +1575,10 @@ patient most likely has a genetic defect that most directly affects the synthesi
  
  
  
-116. A 66 -year-old woman comes to the office for a follow -up examination 1  month after being diagnosed with paroxysmal 
-atrial fibrillation. Appropriate pharmacotherapy was initiated at that time, and normal sinus rhythm was restored. Her 
-pulse is 76/min, and blood pressure is 132/86  mm Hg. Physical examination shows no abnormalities. The ECG s shown 
-represent before (solid line) and after (dashed line) administration of the antiarrhythmic drug. Which of the following 
-drugs was most likely prescribed?  
- 
-(A) Amiodarone  
-(B) Digoxin  
-(C) Mexiletine  
-(D) Phenytoin  
-(E) Verapamil  
+
  
  
-51 
-117. A 4-year-old boy develops fever 3 weeks after being admitted to the hospital for induction chemotherapy for treatment 
+93. A 4-year-old boy develops fever 3 weeks after being admitted to the hospital for induction chemotherapy for treatment 
 of acute lymphoblastic leukemia. Chemotherapy medications are L-asparaginase, dexamethasone, doxorubicin, and 
 vincristine. His temperature is 38.2°C (100.8°F), pulse is 122/min, and respirations are 24/min. Physical examination 
 shows pallor, alopecia, and ulcerations over the gums. A central venous catheter with entry  site in the right upper chest 
@@ -1866,7 +1592,7 @@ following underlying mechanisms is the most likely cause of this patient's susce
 (E) Neutropenia  
  
  
-118. A 6-year-old boy with acute lymphoblastic leukemia is brought to the office for a follow -up examination. He is receiving 
+94. A 6-year-old boy with acute lymphoblastic leukemia is brought to the office for a follow -up examination. He is receiving 
 high-dose methotrexate therapy. A drug is added to the patient's medication regimen to decrease the toxicity of this 
 therapy to normal cells. The beneficial effect of this new drug on normal cells is most likely achieved by bypassing the 
 cellular requirement for which of the following enzymes?  
@@ -1878,7 +1604,7 @@ cellular requirement for which of the following enzymes?
 (E) Thymidylate synthase  
  
  
-119. A screening test for breast cancer is administered to 1000 women with biopsy -proven breast cancer and to 1000  women 
+95. A screening test for breast cancer is administered to 1000 women with biopsy -proven breast cancer and to 1000  women 
 without breast cancer. The test results are positive for 250 of the subjects with breast cancer and 100 of the subjects 
 without breast cancer. The screening test is now to be used on a population of 100,000  women with a known prevalence 
 rate of breast cancer of 80 per 100,000. Which of t he following is the expected number of false -positives?  
@@ -1888,5 +1614,4 @@ rate of breast cancer of 80 per 100,000. Which of t he following is the expected
 (C) 8993  
 (D) 9992  
 (E) 10,012  
- 
- 
+
