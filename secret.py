@@ -1,1 +1,2 @@
+# MAKE SURE TO DELETE
 HUGGING_FACE_TOKEN = "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"

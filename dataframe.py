@@ -1,7 +1,7 @@
 import pandas as pd
 
 # question dataframe
-global questions_df
+global qdf
 qdf = pd.DataFrame(columns=["question", "choices", "answer"])
 
 def main():
@@ -9,15 +9,12 @@ def main():
     QUESTION_TXT = "data/questions.txt"
     ANSWER_TXT = "data/answers.txt"
     # 119 questions
-    NQUESTION = 119
+    NQUESTION = 95
     
     # reads questions
     for i in range(1, NQUESTION + 1):
-        if i != 40 or i != 115:       
-            qdf.loc[len(qdf) + 1] = question_to_df(question_file=QUESTION_TXT, answer_file=ANSWER_TXT, current=i)
-    n = 101
-
-    print(qdf.loc[n, "choices"])
+        qdf.loc[len(qdf) + 1] = question_to_df(question_file=QUESTION_TXT, answer_file=ANSWER_TXT, current=i)
+    
 
 
 

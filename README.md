@@ -6,4 +6,13 @@ from https://www.usmle.org/prepare-your-exam/step-1-materials/step-1-sample-test
 
 pypdf - https://pypdf.readthedocs.io/en/stable/user/extract-text.html
 
-new line + number followed by capital letter
+
+### To do list
+<!-- command shift c, command shift enter -->
+* [X] ~~*dataframe completed*~~ [2024-08-11]
+* [ ] Google translate function completed
+* [ ] other translate function completed
+* [ ] get permission from USMLE
+* [ ] create a function to channel large data
+* [ ] test plugging a questions in 
+* [ ] read huggingface docs starred
