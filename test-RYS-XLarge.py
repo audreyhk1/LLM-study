@@ -7,7 +7,7 @@ import re
 
 login(token=HUGGING_FACE_TOKEN, add_to_git_credential=True)
 global NQUESTIONS
-NQUESTIONS = 3
+NQUESTIONS = 1
 # currently #1 LLM on the leaderboard - https://huggingface.co/dnhkng/RYS-XLarge
 global MODEL
 MODEL = "dnhkng/RYS-XLarge"
