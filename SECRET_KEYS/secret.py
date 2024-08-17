@@ -1,0 +1,4 @@
+# MAKE SURE TO DELETE
+HUGGING_FACE_TOKEN = "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"
+CLOUD_PROJECT_ID = "august-jigsaw-432021-r7"
+CLOUD_JSON_PATH = "SECRET_KEYS/august-jigsaw-432021-r7-5c4cdf517e1f.json"
