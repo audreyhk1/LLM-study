@@ -10,8 +10,9 @@ pypdf - https://pypdf.readthedocs.io/en/stable/user/extract-text.html
 ### To do list
 <!-- command shift c, command shift enter -->
 * [X] ~~*dataframe completed*~~ [2024-08-11]
-* [ ] Google translate function completed
+* [X] ~~*Google translate function completed*~~ [2024-08-11]
 * [ ] other translate function completed
+* [ ] which language to use
 * [ ] get permission from USMLE
 * [ ] create a function to channel large data
 * [ ] test plugging a questions in 

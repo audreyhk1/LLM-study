@@ -2,3 +2,4 @@
 HUGGING_FACE_TOKEN = "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"
 CLOUD_PROJECT_ID = "august-jigsaw-432021-r7"
 CLOUD_JSON_PATH = "SECRET_KEYS/august-jigsaw-432021-r7-5c4cdf517e1f.json"
+DEEPL_KEY = "e53e47ed-c744-4a37-b56c-7ac3b1391b25"
