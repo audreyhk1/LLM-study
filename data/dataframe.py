@@ -14,6 +14,8 @@ def create_question_dataframe():
     
     return qdf
 
+# def main():
+#     create_question_dataframe().to_csv("out.csv")
 
 
 

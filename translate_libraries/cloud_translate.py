@@ -12,7 +12,7 @@ def main():
     translate_cloud(language="fr", text=text)
 
 # Initialize Translation client
-def translate_cloud(language: str, text: str, project_id: str = CLOUD_PROJECT_ID) -> translate.TranslationServiceClient:
+def translate_cloud(language: str, text: str, project_id: str = CLOUD_PROJECT_ID, target_lang: str = "en-US") -> translate.TranslationServiceClient:
     """Translating Text."""
 
     client = translate.TranslationServiceClient()
@@ -30,15 +30,12 @@ def translate_cloud(language: str, text: str, project_id: str = CLOUD_PROJECT_ID
             "contents": [text],
             "mime_type": "text/plain",  # mime types: text/plain, text/html
             "source_language_code": language,
-            "target_language_code": "en-US",
+            "target_language_code": target_lang,
         }
     )
-
-    # Display the translation for each input text provided
     for translation in response.translations:
-        print(f"{translation.translated_text}")
+        return translation.translated_text
 
-    return response
 
 
 
