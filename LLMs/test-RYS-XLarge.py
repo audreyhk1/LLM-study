@@ -2,7 +2,7 @@ import torch
 from SECRET_KEYS.secret import HUGGING_FACE_TOKEN
 from huggingface_hub import login
 from transformers import pipeline
-from data.dataframe import create_question_dataframe
+from dataframe import create_question_dataframe
 import re
 
 login(token=HUGGING_FACE_TOKEN, add_to_git_credential=True)

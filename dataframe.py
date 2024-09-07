@@ -1,11 +1,9 @@
 import pandas as pd
 
-# question dataframe
-global qdf
-qdf = pd.DataFrame(columns=["question", "choices", "answer"])
 
-def main():
-    global qdf
+# question dataframe
+def create_question_dataframe():
+    qdf = pd.DataFrame(columns=["question", "choices", "answer"])
     QUESTION_TXT = "data/questions.txt"
     ANSWER_TXT = "data/answers.txt"
     # 119 questions
@@ -15,7 +13,10 @@ def main():
     for i in range(1, NQUESTION + 1):
         qdf.loc[len(qdf) + 1] = question_to_df(question_file=QUESTION_TXT, answer_file=ANSWER_TXT, current=i)
     
+    return qdf
 
+# def main():
+#     print(create_question_dataframe())
 
 
 
@@ -91,5 +92,5 @@ def question_to_df(question_file, answer_file, current: int):
             if i == current - 1 and line.rstrip():
                 return [question_txt.rstrip().replace("\n",""), choice_txt.rstrip().replace("\n",""), line[-3]]
    
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
