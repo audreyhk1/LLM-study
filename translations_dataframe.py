@@ -18,11 +18,8 @@ def main():
     # for question 
     for index, value in questions.items():
         translated_qdf = translated_qdf._append(retrieve_10_translations(number=index, text=value, languages=LANGUAGES), ignore_index=True)
-        
-        if index == 2:
-            break
-    
-    translated_qdf.to_csv("howdy.csv")
+
+    translated_qdf.to_csv("question_translations.csv")
     
 
 def retrieve_10_translations(number: int, text: str, languages):
