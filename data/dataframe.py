@@ -82,15 +82,17 @@ def question_to_df(question_file, answer_file, current: int):
             elif f"{current + 1}. " in line[0:5]:
                 break     
             if qflag == True and aflag == False:
-                question_txt += line.replace("\n", "")
+                question_txt += line.replace("\n", " ")
             elif aflag == True and qflag == False:
                 choice_txt += line
+                
+            line = line + " "
     
     # opening answer file
     with open(answer_file, "r") as file:
         for i, line in enumerate(file):
             if i == current - 1 and line.rstrip():
-                return [question_txt.rstrip().replace("\n",""), choice_txt.rstrip().replace("\n",""), line[-3]]
+                return [question_txt.rstrip().replace("\n"," "), choice_txt.rstrip().replace("\n",""), line[-3]]
    
 if __name__ == "__main__":
     main()
