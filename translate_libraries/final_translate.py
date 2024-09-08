@@ -7,13 +7,13 @@ F(x) rewords the question through converting it into a different language and ch
 Checks if returns the same string and saves as an error
 """
 def lang_translation(question: str, lan: str):
-    lang_translation = deepl_translate(text=question, from_lang_to_eng=lan)
+    lang_translation = deepl_translate(text=question, translate_lan=lan)
     en_translation = translate_cloud(language=lan, text=lang_translation)
     
     if question == en_translation:
         raise "ERROR: no change occured in the question"
     else:
-        return lang_translation, en_translation
+        return en_translation
     
 
 def main():
@@ -28,7 +28,7 @@ def main():
     """
     
     ## DEEPL - https://developers.deepl.com/docs/resources/supported-languages
-    ## CLOUD - https://cloud.google.com/translate/docs/languages
+    ## CLOUD - https://cloud.google.com/translate/docs/languages ---
     print(lang_translation(question=question, lan="nl"))
     
 if __name__ == "__main__":
