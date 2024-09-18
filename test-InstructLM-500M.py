@@ -10,7 +10,7 @@ global NQUESTIONS
 NQUESTIONS = 1
 # currently #1 LLM on the leaderboard - https://huggingface.co/dnhkng/RYS-XLarge
 global MODEL
-MODEL = "instruction-pretrain/InstructLM-500M"
+MODEL = "bigscience/bloom-560m"
 # LLM's data
 global llm_df
 llm_df = []
@@ -22,7 +22,7 @@ def main():
     # using the USMLE data
     df = create_question_dataframe()
     # creating a pipeline
-    pipe = pipeline(model=MODEL, device=0)
+    pipe = pipeline("zero-shot-classification", model=MODEL)
     
     question = {
         "question": """
@@ -38,11 +38,10 @@ patient is a mutation in which of the following types of genes?
     }
     
     # iterate through each question
-    for out in pipe(question["question"], candidate_labels=question["labels"]):
-        llm_df.append([out["scores"]])
+    here = pipe(question["question"], candidate_labels=question["labels"])
+    print(herea)
     
-    print(llm_df)
-    
+
 """
 Parameters: pass in dataframe
 Function: iterates through each row in dataframe and produces a text as well as classifiers/labels, which are yielded
