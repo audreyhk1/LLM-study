@@ -17,23 +17,48 @@ MODEL = "bigscience/bloom-560m"
 
 
 def main():
+    global NQUESTIONS
+    
     languages = ["en", "es", "ar", "cs", "de", "id", "ko", "ja", "lv", "nl", "it"]
     scores_df = pd.DataFrame(columns=languages)
-    row_scores = []
     
-    # using the USMLE data, create two dataframes from previously collected data
+    # using the USMLE data, create two dataframes from previously collected data, index is the question number
     translation_df, qdf = retrieve_df()
     
     # creating a pipeline
     pipe = pipeline("zero-shot-classification", model=MODEL)
     
-    # iterate through each question
-    for out in pipe(retrieve_questions(translation_df), candidate_labels=retrieve_choices(qdf)):
-        row_scores.append(out["scores"])
-        if len(row_scores) == 11:
-            scores_df.iloc[len(scores_df)] = row_scores
-        elif len(row_scores) > 11:
-            raise Exception("Row_score exceeded 11 elements")
+    retrieve_choices(0, translation_df)
+    retrieve_choices(0, qdf)
+    return
+    
+    # # iterate through each question
+    # for a in range(len(qdf.index)):
+    #     # create a temporary dataframe to store 11 responses per translation for one question
+    #     temp_df = pd.DataFrame(index=[0], columns=languages)
+        
+    #     # loop through every translation 
+    #     for out in pipe(retrieve_questions(translation_df), candidate_labels=retrieve_choices(qdf)):
+    #         print(out)
+    #         return
+            
+            # results = 
+            # print(list(results))
+            # temp_df.iat[b, a] = results["scores"]
+ 
+        # print(temp_df)   
+        # return 
+            
+        
+        # concat temp_df + scores_df
+        
+        
+    # for out in pipe(retrieve_questions(translation_df), candidate_labels=retrieve_choices(qdf)):
+    #     row_scores.append(out["scores"])
+    #     if len(row_scores) == 11:
+    #         scores_df.iloc[len(scores_df)] = row_scores
+    #     elif len(row_scores) > 11:
+    #         raise Exception("Row_score exceeded 11 elements")
         
         
         
@@ -50,20 +75,21 @@ def retrieve_df():
     return pd.read_csv("data/question_translations.csv"), pd.read_csv("data/qdf.csv")
  
 
-def retrieve_questions(dataframe):
+def retrieve_questions(index: int, dataframe):
     global NQUESTIONS
     global NLANGUAGES
+    questions = []
     
-    for x in range(NQUESTIONS):
-        for y in range(NLANGUAGES):
-            print(f"{x + 1}/{NQUESTIONS} retreived. {y + 1}/{NLANGUAGES} retrieved.")
-            yield dataframe.iloc[x].iloc[y]
+    for l in range(NLANGUAGES):
+        print(f"{l + 1}/{NLANGUAGES} retrieved.")
+        questions.append(dataframe.iloc[int].iloc[y])
+    
+    return questions
 
-def retrieve_choices(dataframe):
+def retrieve_choices(index: int, dataframe):
     global NQUESTIONS
-    
-    for i in range(NQUESTIONS):
-        yield find_labels(dataframe.iloc[i].loc["choices"])
+    return find_labels(dataframe.iloc[index].loc["choices"])
+
 
 def find_labels(text: str):
     labels = re.split("\([A-Z]\) ", text)
