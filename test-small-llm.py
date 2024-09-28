@@ -28,9 +28,22 @@ def main():
     # creating a pipeline
     pipe = pipeline("zero-shot-classification", model=MODEL)
     
-    retrieve_choices(0, translation_df)
-    retrieve_choices(0, qdf)
-    return
+    
+    # iterate for each question
+    for q in range(NQUESTIONS):
+        temp_df = pd.DataFrame(index=[0], columns=languages)
+        a_question = retrieve_translations(q, translation_df)
+        choices = retrieve_choices(q, qdf)
+        
+        # iterate for each translation
+        for t in range(len(languages)):
+            results = pipe(a_question[t], candidate_labels=choices)
+            temp_df.iat[0, t] = results["scores"]
+            print(f"{q + 1}/{NQUESTIONS} questions --- {t + 1}/{len(languages)} translations")
+        
+            
+        scores_df = pd.concat([scores_df, temp_df])
+
     
     # # iterate through each question
     # for a in range(len(qdf.index)):
@@ -71,20 +84,20 @@ Parameters: pass in dataframe
 Function: iterates through each row in dataframe and produces a text as well as classifiers/labels, which are yielded
 """
 # read the csv with all translations -> store dataframe 
-def retrieve_df():
-    return pd.read_csv("data/question_translations.csv"), pd.read_csv("data/qdf.csv")
+def retrieve_df(n_translations=11, n_qdf_columns=3):
+    return pd.read_csv("data/question_translations.csv", index_col=False, usecols=range(1, n_translations + 1)), pd.read_csv("data/qdf.csv", index_col=False, usecols=range(1, n_qdf_columns + 1))
+ 
  
 
-def retrieve_questions(index: int, dataframe):
-    global NQUESTIONS
+# function returns the 
+def retrieve_translations(index: int, dataframe):
     global NLANGUAGES
-    questions = []
+    translations = []
     
     for l in range(NLANGUAGES):
-        print(f"{l + 1}/{NLANGUAGES} retrieved.")
-        questions.append(dataframe.iloc[int].iloc[y])
+        translations.append(dataframe.iat[index - 1, l])
     
-    return questions
+    return translations
 
 def retrieve_choices(index: int, dataframe):
     global NQUESTIONS
@@ -93,7 +106,7 @@ def retrieve_choices(index: int, dataframe):
 
 def find_labels(text: str):
     labels = re.split("\([A-Z]\) ", text)
-    return labels[1:]
+    return labels
     
     
 if __name__ == "__main__":
