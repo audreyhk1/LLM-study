@@ -1,22 +1,34 @@
-import torch
 from SECRET_KEYS.secret import HUGGING_FACE_TOKEN
 from huggingface_hub import login
 from transformers import pipeline
 import re
 import pandas as pd
+import torch
 
 login(token=HUGGING_FACE_TOKEN, add_to_git_credential=True)
 global NQUESTIONS
-NQUESTIONS = 2
+NQUESTIONS = 95
 global NLANGUAGES
 NLANGUAGES = 11
 # currently #1 LLM on the leaderboard - https://huggingface.co/dnhkng/RYS-XLarge
+"""
+Models:
+1. Qwen/Qwen2.5-32B
+2. 01-ai/Yi-1.5-34B-Chat
+3. microsoft/Phi-3-medium-4k-instruct
+"""
 global MODEL
-MODEL = "bigscience/bloom-560m"
+MODEL = ""
 
 
+
+"""
+REMEMBER CHANGE 4 -> q in a_question and choices
+remove print
+"""
 
 def main():
+    print("Program started")
     global NQUESTIONS
     
     languages = ["en", "es", "ar", "cs", "de", "id", "ko", "ja", "lv", "nl", "it"]
@@ -26,59 +38,30 @@ def main():
     translation_df, qdf = retrieve_df()
     
     # creating a pipeline
-    pipe = pipeline("zero-shot-classification", model=MODEL)
-    
-    
+    pipe = pipeline("zero-shot-classification", model=MODEL, device=0)
+    print("Pipeline created.")
+
     # iterate for each question
     for q in range(NQUESTIONS):
         temp_df = pd.DataFrame(index=[0], columns=languages)
-        a_question = retrieve_translations(q, translation_df)
+        a_question = retrieve_translations(q, translation_df)       
         choices = retrieve_choices(q, qdf)
+        try:
+            choices.remove("")
+        except ValueError:
+            pass
         
         # iterate for each translation
-        for t in range(len(languages)):
+        for t in range(NLANGUAGES):
             results = pipe(a_question[t], candidate_labels=choices)
-            temp_df.iat[0, t] = results["scores"]
-            print(f"{q + 1}/{NQUESTIONS} questions --- {t + 1}/{len(languages)} translations")
+            temp_df.iat[0, t] = str(results["scores"]) + "&" + str(results["labels"])
+            print(f"{q + 1}/{NQUESTIONS} questions --- {t + 1}/{NLANGUAGES} translations")
         
             
-        scores_df = pd.concat([scores_df, temp_df])
+        scores_df = pd.concat([scores_df, temp_df], ignore_index=True)
+        
+    scores_df.to_csv("scores.csv")
 
-    
-    # # iterate through each question
-    # for a in range(len(qdf.index)):
-    #     # create a temporary dataframe to store 11 responses per translation for one question
-    #     temp_df = pd.DataFrame(index=[0], columns=languages)
-        
-    #     # loop through every translation 
-    #     for out in pipe(retrieve_questions(translation_df), candidate_labels=retrieve_choices(qdf)):
-    #         print(out)
-    #         return
-            
-            # results = 
-            # print(list(results))
-            # temp_df.iat[b, a] = results["scores"]
- 
-        # print(temp_df)   
-        # return 
-            
-        
-        # concat temp_df + scores_df
-        
-        
-    # for out in pipe(retrieve_questions(translation_df), candidate_labels=retrieve_choices(qdf)):
-    #     row_scores.append(out["scores"])
-    #     if len(row_scores) == 11:
-    #         scores_df.iloc[len(scores_df)] = row_scores
-    #     elif len(row_scores) > 11:
-    #         raise Exception("Row_score exceeded 11 elements")
-        
-        
-        
-        
-
-
-    
 """
 Parameters: pass in dataframe
 Function: iterates through each row in dataframe and produces a text as well as classifiers/labels, which are yielded
@@ -95,7 +78,7 @@ def retrieve_translations(index: int, dataframe):
     translations = []
     
     for l in range(NLANGUAGES):
-        translations.append(dataframe.iat[index - 1, l])
+        translations.append(dataframe.iat[index, l])
     
     return translations
 
