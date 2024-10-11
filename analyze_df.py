@@ -33,14 +33,11 @@ def main():
         eng_choices = answer_key_to_answer_choice(df=temp_df, qdf=answers_df, col_name="en", multiple_choice=multiple_choice)
         analysis_df = pd.concat([analysis_df, eng_choices.rename(columns={"Answer choice": "Phi-3-medium-4k-instruct"})], axis=1)
         
-        # for q in range(NQUESTIONS):
-        #     # find the answer choice that correponds with correct answer key
-            
-        #     # loop through each translation
-        #     for t in range(len(LANGUAGES, [1])):
-        #         pass
-        #         # compare highest confidence score with with correct answer 
-        #         # record result in dataframe
+    """
+    1) Iterate through all of the rewordings
+    2) find number of wrong answers
+    3) divide by 10 
+    """
 
 # convert csv to dataframe
 def open_csv_to_df(filename, cols_used):
