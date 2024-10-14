@@ -16,9 +16,11 @@ Models:
 1. Qwen/Qwen2.5-32B
 2. 01-ai/Yi-1.5-34B-Chat
 3. microsoft/Phi-3-medium-4k-instruct
+4. nisten/franqwenstein-35b
+5. tanliboy/lambda-qwen2.5-32b-dpo-test
 """
 global MODEL
-MODEL = ""
+MODEL = "nisten/franqwenstein-35b"
 
 
 
