@@ -18,6 +18,7 @@ Models:
 3. microsoft/Phi-3-medium-4k-instruct
 4. nisten/franqwenstein-35b
 5. tanliboy/lambda-qwen2.5-32b-dpo-test
+6. jpacifico/Chocolatine-14B-Instruct-DPO-v1.2
 """
 global MODEL
 MODEL = "nisten/franqwenstein-35b"
