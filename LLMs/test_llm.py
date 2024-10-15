@@ -63,8 +63,9 @@ def main():
         
             
         scores_df = pd.concat([scores_df, temp_df], ignore_index=True)
-        
-    scores_df.to_csv("scores.csv")
+    
+    folder, name = MODEL.split("/")
+    scores_df.to_csv(f"{name}.csv")
 
 """
 Parameters: pass in dataframe
