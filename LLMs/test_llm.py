@@ -19,6 +19,7 @@ Models:
 4. nisten/franqwenstein-35b
 5. tanliboy/lambda-qwen2.5-32b-dpo-test
 6. jpacifico/Chocolatine-14B-Instruct-DPO-v1.2
+7. TheTsar1209/qwen-carpmuscle-v0.1
 """
 global MODEL
 MODEL = "nisten/franqwenstein-35b"
