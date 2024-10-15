@@ -7,13 +7,16 @@ from https://www.usmle.org/prepare-your-exam/step-1-materials/step-1-sample-test
 pypdf - https://pypdf.readthedocs.io/en/stable/user/extract-text.html
 
 
-### To do list
-<!-- command shift c, command shift enter -->
-* [ ] which language to use
-* [ ] get permission from USMLE
-* [ ] create a function to channel large data
-* [ ] test plugging a questions in 
-* [ ] read huggingface docs starred
+### Models used
+1. Qwen/Qwen2.5-32B
+2. 01-ai/Yi-1.5-34B-Chat
+3. microsoft/Phi-3-medium-4k-instruct
+4. nisten/franqwenstein-35b
+5. tanliboy/lambda-qwen2.5-32b-dpo-test
+6. jpacifico/Chocolatine-14B-Instruct-DPO-v1.2
+7. TheTsar1209/qwen-carpmuscle-v0.1
+8. google/gemma-2-27b-it
+
 
 ### Languages used (10)
 1. Spanish

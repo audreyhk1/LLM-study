@@ -1,6 +1,7 @@
 import pandas as pd
 import ast
 import re
+import os
 
 global LANGUAGES
 LANGUAGES = ["en", "es", "ar", "cs", "de", "id", "ko", "ja", "lv", "nl", "it"]
@@ -10,10 +11,14 @@ LLM1 --- Phi-3-medium-4k-instruct
 global NQUESTIONS
 NQUESTIONS = 95
 global FILENAMES
-FILENAMES = ["scores/Yi-1.5-34B-Chat.csv", "scores/Qwen2.5-32B.csv", "scores/Phi-3-medium-4k-instruct.csv"]
+FILENAMES = []
 
 def main():
     global LANGUAGES, NQUESTIONS, FILENAMES
+    
+    # get filenames
+    for name in os.listdir("/workspaces/LLM-calibration/scores"):
+        FILENAMES.append(f"scores/{name}")
     
     # open data
     data = pd.read_csv(FILENAMES[0], index_col=False, usecols=range(1, 12))
@@ -30,7 +35,7 @@ def main():
         temp_df = pd.read_csv(FILENAMES[n], index_col=False)
         
         # add english translations to analysis_df
-        eng_choices = answer_key_to_answer_choice(df=temp_df, qdf=answers_df, col_name="en", multiple_choice=multiple_choice, name=FILENAMES[n].removeprefix("scores/"))
+        eng_choices = answer_key_to_answer_choice(df=temp_df, qdf=answers_df, col_name="en", multiple_choice=multiple_choice, name=FILENAMES[n].removeprefix("scores/").removesuffix(".csv"))
         analysis_df = pd.concat([analysis_df, eng_choices], axis=1)
         
         """
@@ -46,9 +51,9 @@ def main():
             rewording_df = pd.concat([rewording_df, rewording_choices], axis=1)
         
         # 2) find number of wrong answers
-        analysis_df = pd.concat([analysis_df, calculate_revised_concordant(rewording_df, FILENAMES[n].removeprefix("scores/"))], axis=1)
+        analysis_df = pd.concat([analysis_df, calculate_revised_concordant(rewording_df, FILENAMES[n].removeprefix("scores/").removesuffix(".csv"))], axis=1)
     
-    analysis_df.to_csv("analysis.csv")
+    analysis_df.to_csv("analysis/analysis.csv")
 
 
 
