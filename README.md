@@ -28,3 +28,7 @@ pypdf - https://pypdf.readthedocs.io/en/stable/user/extract-text.html
 8. Latvian
 9. Dutch
 10. Italian
+
+
+## To do list
+1. Get 20 rewordings 
