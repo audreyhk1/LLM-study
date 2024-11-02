@@ -4,7 +4,7 @@ import re
 import os
 
 global LANGUAGES
-LANGUAGES = ["en", "es", "ar", "cs", "de", "id", "ko", "ja", "lv", "nl", "it"]
+LANGUAGES = ["en", "es", "ar", "cs", "de", "id", "ko", "ja", "lv", "nl", "it", "el",]
 """
 LLM1 --- Phi-3-medium-4k-instruct
 """

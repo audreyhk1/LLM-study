@@ -28,7 +28,16 @@ pypdf - https://pypdf.readthedocs.io/en/stable/user/extract-text.html
 8. Latvian
 9. Dutch
 10. Italian
-
+11. Chinese (simplified)
+12. Bulgarian
+13. Polish
+14. Greek
+15. Russian
+16. Turkish
+17. Romanian
+18. Danish
+19. Finnish
+20. Estonian
 
 ## To do list
 1. Get 20 rewordings 
