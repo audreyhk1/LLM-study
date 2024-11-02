@@ -17,7 +17,7 @@ pypdf - https://pypdf.readthedocs.io/en/stable/user/extract-text.html
 7. TheTsar1209/qwen-carpmuscle-v0.1
 
 
-### Languages used (10)
+### Languages used (20)
 1. Spanish
 2. Arabic
 3. Czech
