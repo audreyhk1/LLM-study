@@ -24,9 +24,13 @@ def main():
     for i, row in rewordings.iterrows():
         for n in range(row.size):
             rouge_1 = scorer.score(row[n], original[i])
-            rouge_df.iat[i, n] = rouge_1["rouge1"]
+            rouge_df.iat[i, n] = rouge_1["rouge1"].precision
     
     rouge_df.to_csv("rouge_analysis.csv")
+
+def retrieve_precision(rouge_score):
+    result = rouge_score.split("=").split(",")
+    return result[1]
     
 if __name__ == "__main__":
     main()
