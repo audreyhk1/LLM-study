@@ -22,7 +22,11 @@ Models:
 7. TheTsar1209/qwen-carpmuscle-v0.1
 """
 global MODEL
+<<<<<<< HEAD:LLMs/test_llm.py
 MODEL = "nisten/franqwenstein-35b"
+=======
+MODEL = "TheTsar1209/qwen-carpmuscle-v0.1"
+>>>>>>> ea90076 (added 7th model data):test_llm.py
 
 
 
@@ -63,9 +67,8 @@ def main():
         
             
         scores_df = pd.concat([scores_df, temp_df], ignore_index=True)
-    
-    folder, name = MODEL.split("/")
-    scores_df.to_csv(f"{name}.csv")
+        
+    scores_df.to_csv("scores.csv")
 
 """
 Parameters: pass in dataframe
