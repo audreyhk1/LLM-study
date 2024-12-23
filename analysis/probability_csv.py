@@ -15,14 +15,14 @@ def main():
     data_df = pd.read_csv(FILENAME[0], index_col=False)
     
     # create df storing values
-    probability_csv = pd.DataFrame(columns=range(11))
+    probability_csv = pd.DataFrame()
 
 
     # loop through each column (LLM's Answers (i) & LLM's percent concordance (i + 1))
     cols = data_df.columns
     for i in range(2, len(cols), 2):
         llm_probability = find_probabilities_per_llm(llm_name=cols[i], llm_ans=data_df[cols[i]], llm_concordant=data_df[cols[i + 1]], large_file=data_df)
-        probability_csv.loc[cols[i]] = llm_probability
+        probability_csv = pd.concat([probability_csv, llm_probability], ignore_index=False)
     
     # write df to csv
     probability_csv.to_csv("analysis/probability.csv")

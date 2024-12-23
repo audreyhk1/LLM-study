@@ -1,6 +1,5 @@
 import pandas as pd
 import os
-import csv
 
 global FILENAME
 FILENAME = ["analysis/analysis.csv"]
@@ -15,17 +14,8 @@ def main():
     
     llm_percent_accuracy = get_LLM_percent_accuracy(data_df)
     question_percent_accuracy = get_question_percent_accuracy(data_df)
+    print(question_percent_accuracy)
     
-    with open("analysis/llm_percent_accuracy.csv", "w", newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        for key, value in llm_percent_accuracy.items():
-            writer.writerow([key, value])
-            
-    with open("analysis/question_percent_accuracy.csv", "w", newline="") as f:
-        writer = csv.writer(f)
-        writer.writerow(["Question", "Accuracy"])
-        for i in range(len(question_percent_accuracy)):
-            writer.writerow([i + 1, question_percent_accuracy[i]])
     
 def get_LLM_percent_accuracy(df):
     global NQUESTIONS
