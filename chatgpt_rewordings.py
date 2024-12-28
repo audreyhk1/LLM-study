@@ -21,17 +21,16 @@ def main():
 def get_all_ChatGPT_rewordings(df):
     global NAAL_LEVELS
     chatgpt_df = pd.DataFrame(columns=NAAL_LEVELS)
+    counter = 1
     
     for q in df["question"]:
-        print(q)
-        # df.loc[len(df)] = get_ChatGPT_rewording(q)
+        print(f"{counter} out of 95 questions completed")
         chatgpt_df = pd.concat([chatgpt_df, pd.DataFrame([get_ChatGPT_rewording(q)])], ignore_index=True)
-        break
+        counter += 1;
 
     return chatgpt_df
 
 def get_ChatGPT_rewording(question):
-    print("RUN")
     # create a client to access model
     client = OpenAI(api_key=OPENAI_API_KEY)
                 
@@ -40,22 +39,31 @@ def get_ChatGPT_rewording(question):
     completion = client.chat.completions.create(
         # cheaper model for testing: gpt-4o-mini
         # real model for testing: gpt-4o
-        model="gpt-4o-mini",
+        model="gpt-4o",
         messages=[
             # Reading levels used by the National Assessment of Adult Literacy to assess English language literacy skils
             # https://nces.ed.gov/naal/perf_levels.asp
             {
                 "role": "developer", 
-                "content": "Your task as a National Assessment of Adult Literacy (NAAL) Question Converter is to transform a given question into four distinct versions, each aligning with one of NAAL's four proficiency levels (Below Basic, Basic, Intermediate, Proficient). For each version: 1. Preserve the original meaning of the question, retaining all numbers and important words. 2. Ensure the phrasing is clear and suitable for the target literacy level. 3. Use diverse and inclusive language to accommodate varied interpretations and challenge literacy skills appropriately. Your goal is to produce diverse versions that maintain the integrity of the original question while adapting complexity and style for each level."
+                "content": """
+                Your task as a National Assessment of Adult Literacy (NAAL) Question Converter is to transform a given question into four distinct versions, each aligning with one of NAAL's four proficiency levels (Below Basic, Basic, Intermediate, Proficient). 
+                
+                For each version: 
+                1. Fully preserve the original meaning of the question. This includes retaining **all numbers, critical words, and key phrases** from the original question without omission or simplification. 
+                2. Adapt minor, stylistic elements such as sentence structure or connective words to align with the literacy level's complexity.
+                3. Ensure each rephrased version remains clear and faithful to the original context while testing literacy skills suitable for its target level. 
+                4. Avoid introducing new information, changing the meaning, or omitting any part of the question that conveys vital details or context.
+                """
             },
             {
                 "role": "user",
                 "content": f"""
                 1. Generate four rephrased versions of the question, tailored to each proficiency level (Below Basic, Basic, Intermediate, Proficient). 
-                2. Ensure the question's meaning and key elements (numbers, critical terms) are preserved across all versions. 
-                3. Maintain comprehensibility for the target literacy level while using inclusive and varied phrasing. 
+                2. Retain **all numbers, critical terms, and key phrases** from the original question without any changes, omissions, or substitutions. 
+                3. Adjust only minor wording or sentence structure to make the question suitable for the target literacy level. 
+                4. Ensure every version accurately reflects the original question’s meaning and includes all relevant details. 
                 
-                Transform this question: {question}
+                Transform this question: '''{question}'''
                 """
             }
         ],
