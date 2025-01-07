@@ -4,7 +4,7 @@ import re
 import os
 
 global LANGUAGES
-LANGUAGES = ["en", "es", "ar", "cs", "de", "id", "ko", "ja", "lv", "nl", "it", "el",]
+LANGUAGES = ["en", "es", "ar", "cs", "de", "id", "ko", "ja", "lv", "nl", "it"]
 """
 LLM1 --- Phi-3-medium-4k-instruct
 """
@@ -20,20 +20,17 @@ def main():
     for name in os.listdir("/workspaces/LLM-calibration/scores"):
         FILENAMES.append(f"scores/{name}")
     
-    # open data
-    data = pd.read_csv(FILENAMES[0], index_col=False, usecols=range(1, 12))
+    # create a new 
     analysis_df = pd.DataFrame(index=range(NQUESTIONS))
     
     # open answer choices
     answers_df = pd.read_csv("data/qdf.csv", index_col=False, usecols=[2, 3]) # -> only want answer choices and answer key
-    analysis_df = pd.concat([answers_df["answer"].rename("Correct Answer"), analysis_df],axis=1)
     
     multiple_choice = get_choices(answers_df)
     
     # loop through each question
     for n in range(len(FILENAMES)):
-        temp_df = pd.read_csv(FILENAMES[n], index_col=False)
-        
+        temp_df = pd.read_csv(FILENAMES[n], index_col=[0])
         # add english translations to analysis_df
         eng_choices = answer_key_to_answer_choice(df=temp_df, qdf=answers_df, col_name="en", multiple_choice=multiple_choice, name=FILENAMES[n].removeprefix("scores/").removesuffix(".csv"))
         analysis_df = pd.concat([analysis_df, eng_choices], axis=1)
@@ -47,12 +44,13 @@ def main():
         
         # 1) iterate through all rewordings
         for i in range(1, len(LANGUAGES)):
+            # all of the answers the LLM chose
             rewording_choices = answer_key_to_answer_choice(df=temp_df, qdf=answers_df, col_name=LANGUAGES[i], multiple_choice=multiple_choice, name=LANGUAGES[i])
             rewording_df = pd.concat([rewording_df, rewording_choices], axis=1)
-        
+
         # 2) find number of wrong answers
         analysis_df = pd.concat([analysis_df, calculate_revised_concordant(rewording_df, FILENAMES[n].removeprefix("scores/").removesuffix(".csv"))], axis=1)
-    
+
     analysis_df.to_csv("analysis/analysis.csv")
 
 
@@ -72,8 +70,9 @@ def answer_key_to_answer_choice(df, qdf, col_name, multiple_choice, name):
         llm_ans = ""
         for n in range(len(multiple_choice[ind])):
             # 
-            if llm_choices[0] in multiple_choice[ind][n]:
+            if llm_choices[0] in multiple_choice[ind][n] and llm_choices[0]:
                 llm_choice_df.iloc[ind] = chr(n + 64 + 1)
+                # already_chosen.append[llm_choices[0]]
     return llm_choice_df
 
 def get_choices(qdf):
@@ -96,8 +95,8 @@ def calculate_revised_concordant(dataframe, name):
     
     for question_index in dataframe.index:
         frequency = dataframe.iloc[question_index].value_counts()
-        rc_df.iloc[question_index] = frequency.iloc[0] / frequency.sum()
-    
+        rc_df.iloc[question_index] = len(frequency) / frequency.sum()
+        
     return rc_df
     
 if __name__ == "__main__":

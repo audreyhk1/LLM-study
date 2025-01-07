@@ -30,7 +30,7 @@ def main():
             rouge_1 = scorer.score(original.iloc[i], row[n])
             rouge_df.iat[i, n] = rouge_1["rouge1"].fmeasure
     
-    rouge_df.to_csv(f"rouge-analysis/{CSV_NAME}.csv")
+    rouge_df.to_csv(f"rouge-analysis/new-{CSV_NAME}.csv")
 
 # remove/deal with any NaNs
 def clean_df(df):
