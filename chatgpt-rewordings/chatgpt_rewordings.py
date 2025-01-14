@@ -46,7 +46,7 @@ def get_ChatGPT_rewording(question):
             {
                 "role": "developer", 
                 "content": """
-                Your task as a National Assessment of Adult Literacy (NAAL) Question Converter is to transform a given question into four distinct versions, each aligning with one of NAAL's four proficiency levels (Below Basic, Basic, Intermediate, Proficient). 
+                Your task as a National Assessment of Adult Literacy (NAAL) Question Converter is to transform a given question into four distinct versions, each aligning with one of NAAL's four proficiency levels (Below Basic, Basic, Intermediate, Advanced). 
                 
                 For each version: 
                 1. Fully preserve the original meaning of the question. This includes retaining **all numbers, critical words, and key phrases** from the original question without omission or simplification. 
@@ -84,7 +84,7 @@ def get_ChatGPT_rewording(question):
                             "description": "Reworded question for Intermediate level"
                         },
                         "Advanced": {
-                            "description": "Reworded question for Proficient level"
+                            "description": "Reworded question for Advanced level"
                         }
                     }
                 }
