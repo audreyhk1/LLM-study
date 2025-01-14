@@ -27,6 +27,7 @@ def main():
     answers_df = pd.read_csv("data/qdf.csv", index_col=False, usecols=[2, 3]) # -> only want answer choices and answer key
     
     multiple_choice = get_choices(answers_df)
+    print()
     
     # loop through each question
     for n in range(len(FILENAMES)):
@@ -50,8 +51,8 @@ def main():
 
         # 2) find number of wrong answers
         analysis_df = pd.concat([analysis_df, calculate_revised_concordant(rewording_df, FILENAMES[n].removeprefix("scores/").removesuffix(".csv"))], axis=1)
-
-    analysis_df.to_csv("analysis/analysis.csv")
+    analysis_df.insert(0, "Correct Answer", answers_df["answer"])
+    # analysis_df.to_csv("analysis/csv/new-analysis.csv")
 
 
 
