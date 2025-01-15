@@ -8,51 +8,40 @@ import torch
 login(token=HUGGING_FACE_TOKEN, add_to_git_credential=True)
 global NQUESTIONS
 NQUESTIONS = 95
-global NLANGUAGES
-NLANGUAGES = 11
+# total columns for rewordings df
+global NCOLS
+NCOLS = 5
+global FILES
+FILES = ["Old/data/qdf.csv", "chatgpt-rewordings/second-rewordings.csv"]
+
 # currently #1 LLM on the leaderboard - https://huggingface.co/dnhkng/RYS-XLarge
 """
 Models:
-1. Qwen/Qwen2.5-32B
-2. 01-ai/Yi-1.5-34B-Chat
-3. microsoft/Phi-3-medium-4k-instruct
-4. nisten/franqwenstein-35b
-5. tanliboy/lambda-qwen2.5-32b-dpo-test
-6. jpacifico/Chocolatine-14B-Instruct-DPO-v1.2
-7. TheTsar1209/qwen-carpmuscle-v0.1
+
 """
 global MODEL
-<<<<<<< HEAD:LLMs/test_llm.py
-MODEL = "nisten/franqwenstein-35b"
-=======
 MODEL = "TheTsar1209/qwen-carpmuscle-v0.1"
->>>>>>> ea90076 (added 7th model data):test_llm.py
-
-
-
-"""
-REMEMBER CHANGE 4 -> q in a_question and choices
-remove print
-"""
 
 def main():
     print("Program started")
-    global NQUESTIONS
-    
-    languages = ["en", "es", "ar", "cs", "de", "id", "ko", "ja", "lv", "nl", "it"]
-    scores_df = pd.DataFrame(columns=languages)
-    
+    global NQUESTIONS, NCOLS
+        
     # using the USMLE data, create two dataframes from previously collected data, index is the question number
-    translation_df, qdf = retrieve_df()
+    rewording_df, qdf = retrieve_df()
+    
+    lit_levels = rewording_df.columns
+    scores_df = pd.DataFrame(columns=lit_levels)
+    rewording_df.insert(0, "Original", qdf["question"])
+    
     
     # creating a pipeline
     pipe = pipeline("zero-shot-classification", model=MODEL, device=0)
     print("Pipeline created.")
 
     # iterate for each question
-    for q in range(NQUESTIONS):
-        temp_df = pd.DataFrame(index=[0], columns=languages)
-        a_question = retrieve_translations(q, translation_df)       
+    for q in range(2):
+        temp_df = pd.DataFrame(index=[0], columns=lit_levels)
+        a_question = retrieve_translations(q, rewording_df)       
         choices = retrieve_choices(q, qdf)
         try:
             choices.remove("")
@@ -60,24 +49,25 @@ def main():
             pass
         
         # iterate for each translation
-        for t in range(NLANGUAGES):
+        for t in range(NCOLS):
             results = pipe(a_question[t], candidate_labels=choices)
             temp_df.iat[0, t] = str(results["scores"]) + "&" + str(results["labels"])
-            print(f"{q + 1}/{NQUESTIONS} questions --- {t + 1}/{NLANGUAGES} translations")
+            print(f"{q + 1}/{NQUESTIONS} questions --- {t + 1}/{NCOLS} rewording")
         
             
         scores_df = pd.concat([scores_df, temp_df], ignore_index=True)
+        break
         
-    scores_df.to_csv("scores.csv")
+    # scores_df.to_csv("scores.csv")
 
 """
 Parameters: pass in dataframe
 Function: iterates through each row in dataframe and produces a text as well as classifiers/labels, which are yielded
 """
 # read the csv with all translations -> store dataframe 
-def retrieve_df(n_translations=11, n_qdf_columns=3):
-    return pd.read_csv("data/question_translations.csv", index_col=False, usecols=range(1, n_translations + 1)), pd.read_csv("data/qdf.csv", index_col=False, usecols=range(1, n_qdf_columns + 1))
- 
+def retrieve_df(n_qdf_columns=3):
+    global FILES, NCOLS
+    return pd.read_csv(FILES[1], index_col=False, usecols=range(1, NCOLS)), pd.read_csv(FILES[0], index_col=False, usecols=range(1, n_qdf_columns + 1))
  
 
 # function returns the 
