@@ -17,10 +17,10 @@ FILES = ["Old/data/qdf.csv", "chatgpt-rewordings/second-rewordings.csv"]
 # currently #1 LLM on the leaderboard - https://huggingface.co/dnhkng/RYS-XLarge
 """
 Models:
-
+1. rombodawg/Rombos-LLM-V2.5-Qwen-32b
 """
 global MODEL
-MODEL = "TheTsar1209/qwen-carpmuscle-v0.1"
+MODEL = "rombodawg/Rombos-LLM-V2.5-Qwen-32b"
 
 def main():
     print("Program started")
@@ -50,15 +50,17 @@ def main():
         
         # iterate for each translation
         for t in range(NCOLS):
+            print(a_question[t])
+            print(choices)
+            
             results = pipe(a_question[t], candidate_labels=choices)
             temp_df.iat[0, t] = str(results["scores"]) + "&" + str(results["labels"])
             print(f"{q + 1}/{NQUESTIONS} questions --- {t + 1}/{NCOLS} rewording")
         
             
         scores_df = pd.concat([scores_df, temp_df], ignore_index=True)
-        break
         
-    # scores_df.to_csv("scores.csv")
+    scores_df.to_csv("scores.csv")
 
 """
 Parameters: pass in dataframe
