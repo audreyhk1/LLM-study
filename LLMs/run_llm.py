@@ -26,7 +26,7 @@ Models:
 7. sometimesanotion/Lamarck-14B-v0.6
 """
 global MODEL
-MODEL = "fblgit/TheBeagle-v2beta-32B-MGS"
+MODEL = "Saxo/Linkbricks-Horizon-AI-Avengers-V4-32B"
 
 def main():
     print("Program started")
@@ -57,7 +57,7 @@ def main():
         
         # iterate for each translation
         for t in range(NCOLS):
-            results = pipe(a_question[t].strip(), candidate_labels=choices)
+            results = pipe(a_question[t].strip(), candidate_labels=clean_choices(choices))
             temp_df.iat[0, t] = str(results["scores"]) + "&" + str(results["labels"])
             print(f"{q + 1}/{NQUESTIONS} questions --- {t + 1}/{NCOLS} rewording")
         
@@ -91,7 +91,11 @@ def retrieve_choices(index: int, dataframe):
 def find_labels(text: str):
     labels = re.split("\([A-Z]\) ", text)
     return labels[1:]
+
+def clean_choices(arr):
+    for element in arr:
+        arr[element] = element.strip()    
     
-    
+    return arr
 if __name__ == "__main__":
     main()
