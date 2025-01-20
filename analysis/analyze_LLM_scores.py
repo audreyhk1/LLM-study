@@ -5,9 +5,6 @@ import os
 
 global LANGUAGES
 LANGUAGES = ["en", "es", "ar", "cs", "de", "id", "ko", "ja", "lv", "nl", "it"]
-"""
-LLM1 --- Phi-3-medium-4k-instruct
-"""
 global NQUESTIONS
 NQUESTIONS = 95
 global FILENAMES
