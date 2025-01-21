@@ -4,11 +4,12 @@ import re
 import os
 
 global LANGUAGES
-LANGUAGES = ["en", "es", "ar", "cs", "de", "id", "ko", "ja", "lv", "nl", "it"]
-global NQUESTIONS
-NQUESTIONS = 95
+# IMPORTANT: assumes that the first is the original
+LANGUAGES = ["Original", "Below Basic", "Basic", "Intermediate", "Advanced"]
 global FILENAMES
 FILENAMES = []
+global NQUESTIONS
+NQUESTIONS = 95
 
 def main():
     global LANGUAGES, NQUESTIONS, FILENAMES
@@ -21,7 +22,7 @@ def main():
     analysis_df = pd.DataFrame(index=range(NQUESTIONS))
     
     # open answer choices
-    answers_df = pd.read_csv("data/qdf.csv", index_col=False, usecols=[2, 3]) # -> only want answer choices and answer key
+    answers_df = pd.read_csv("Old/data/qdf.csv", index_col=False, usecols=[2, 3]) # -> only want answer choices and answer key
     
     multiple_choice = get_choices(answers_df)
     print()
@@ -30,7 +31,7 @@ def main():
     for n in range(len(FILENAMES)):
         temp_df = pd.read_csv(FILENAMES[n], index_col=[0])
         # add english translations to analysis_df
-        eng_choices = answer_key_to_answer_choice(df=temp_df, qdf=answers_df, col_name="en", multiple_choice=multiple_choice, name=FILENAMES[n].removeprefix("scores/").removesuffix(".csv"))
+        eng_choices = answer_key_to_answer_choice(df=temp_df, qdf=answers_df, col_name=LANGUAGES[0], multiple_choice=multiple_choice, name=FILENAMES[n].removeprefix("scores/").removesuffix(".csv"))
         analysis_df = pd.concat([analysis_df, eng_choices], axis=1)
         
         """
@@ -49,7 +50,7 @@ def main():
         # 2) find number of wrong answers
         analysis_df = pd.concat([analysis_df, calculate_revised_concordant(rewording_df, FILENAMES[n].removeprefix("scores/").removesuffix(".csv"))], axis=1)
     analysis_df.insert(0, "Correct Answer", answers_df["answer"])
-    # analysis_df.to_csv("analysis/csv/new-analysis.csv")
+    analysis_df.to_csv("analysis/csv/new-analysis.csv")
 
 
 
