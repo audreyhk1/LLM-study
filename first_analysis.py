@@ -25,9 +25,8 @@ def main():
     answers_df = pd.read_csv("Old/data/qdf.csv", index_col=False, usecols=[2, 3]) # -> only want answer choices and answer key
     
     multiple_choice = get_choices(answers_df)
-    print()
     
-    # loop through each question
+    # loop through each LLM
     for n in range(len(FILENAMES)):
         temp_df = pd.read_csv(FILENAMES[n], index_col=[0])
         # add english translations to analysis_df
@@ -41,14 +40,15 @@ def main():
         # df holds all rewordings for 1 question
         rewording_df = pd.DataFrame(index=range(NQUESTIONS))
         
-        # 1) iterate through all rewordings
+        # 1) iterate through all rewording types (fr, es, la, ...)
         for i in range(1, len(LANGUAGES)):
             # all of the answers the LLM chose
             rewording_choices = answer_key_to_answer_choice(df=temp_df, qdf=answers_df, col_name=LANGUAGES[i], multiple_choice=multiple_choice, name=LANGUAGES[i])
             rewording_df = pd.concat([rewording_df, rewording_choices], axis=1)
 
-        # 2) find number of wrong answers
+        # 2) find number of revised percent concordance
         analysis_df = pd.concat([analysis_df, calculate_revised_concordant(rewording_df, FILENAMES[n].removeprefix("scores/").removesuffix(".csv"))], axis=1)
+        
     analysis_df.insert(0, "Correct Answer", answers_df["answer"])
     analysis_df.to_csv("analysis/csv/new-analysis.csv")
     
@@ -93,14 +93,27 @@ def get_choices(qdf):
     
     return all_choices
 
+"""
+Parameters:
+- dataframe: all of the answers for each columns for ONE LLM
+- name: LLM's name
+
+Return:
+- a dataframe with all revised concordance for ONE LLM
+"""
 def calculate_revised_concordant(dataframe, name):
+    print(name)
+    print(dataframe)
     rc_df = pd.DataFrame(index=range(NQUESTIONS), columns=[f"{name} (Revised % Concordant)"])
     
+    # loop through all questions
     for question_index in dataframe.index:
+        # get frequency of answer choice (A, B...) from all columns
         frequency = dataframe.iloc[question_index].value_counts()
-        rc_df.iloc[question_index] = len(frequency) / frequency.sum()
-        
+        rc_df.iloc[question_index] = frequency.max() / frequency.sum()
+    
     return rc_df
+
 
 def get_rpc_cols(columns):
     rpc_col = []
