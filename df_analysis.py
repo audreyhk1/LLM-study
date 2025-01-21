@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 global FILENAME
-FILENAME = ["analysis/analysis.csv"]
+FILENAME = ["analysis/csv/new-analysis.csv"]
 global NQUESTIONS
 NQUESTIONS = 95
 global NMODELS

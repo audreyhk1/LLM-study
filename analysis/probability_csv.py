@@ -4,12 +4,11 @@ from collections import Counter
 import os
 
 global FILENAME
-FILENAME = ["analysis/revised-concordance-data.csv", "analysis/rpc-calculations.csv"]
+FILENAME = ["analysis/csv/new-analysis.csv", "analysis/csv/rpc-calculations.csv"]
 global NQUESTIONS
 NQUESTIONS = 95
 global MODELS
 MODELS = os.listdir("/workspaces/LLM-calibration/scores")
-
 
 def main():
     # open file containing analyzed data (analysis.csv)
@@ -31,7 +30,6 @@ def main():
     
     # write df to csv
     probability_csv.to_csv("analysis/probability.csv", index=False)
-
 
 """
 1. loop through each question

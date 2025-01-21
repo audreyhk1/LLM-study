@@ -51,6 +51,10 @@ def main():
         analysis_df = pd.concat([analysis_df, calculate_revised_concordant(rewording_df, FILENAMES[n].removeprefix("scores/").removesuffix(".csv"))], axis=1)
     analysis_df.insert(0, "Correct Answer", answers_df["answer"])
     analysis_df.to_csv("analysis/csv/new-analysis.csv")
+    
+    ndf = analysis_df[get_rpc_cols(analysis_df.columns)]
+    ndf.columns = ndf.columns.str.replace(" (Revised % Concordant)", "")
+    ndf.to_csv("analysis/csv/rpc-calculations.csv")
 
 
 
@@ -97,6 +101,14 @@ def calculate_revised_concordant(dataframe, name):
         rc_df.iloc[question_index] = len(frequency) / frequency.sum()
         
     return rc_df
+
+def get_rpc_cols(columns):
+    rpc_col = []
     
+    for i in range(2, len(columns), 2):
+        rpc_col.append(columns[i])
+    
+    return rpc_col
+
 if __name__ == "__main__":
     main()
