@@ -5,7 +5,7 @@ import os
 
 global LANGUAGES
 # IMPORTANT: assumes that the first is the original
-LANGUAGES = ["Original", "Below Basic", "Basic", "Intermediate", "Advanced"]
+LANGUAGES = ["en","es","ar","cs","de","id","ko","ja","lv","nl","it"]
 global FILENAMES
 FILENAMES = []
 global NQUESTIONS
@@ -15,7 +15,7 @@ def main():
     global LANGUAGES, NQUESTIONS, FILENAMES
     
     # get filenames
-    for name in os.listdir("/workspaces/LLM-calibration/scores"):
+    for name in os.listdir("scores"):
         FILENAMES.append(f"scores/{name}")
     
     # create a new 
@@ -50,11 +50,11 @@ def main():
         analysis_df = pd.concat([analysis_df, calculate_revised_concordant(rewording_df, FILENAMES[n].removeprefix("scores/").removesuffix(".csv"))], axis=1)
         
     analysis_df.insert(0, "Correct Answer", answers_df["answer"])
-    analysis_df.to_csv("analysis/csv/new-analysis.csv")
+    analysis_df.to_csv("new-analysis.csv")
     
     ndf = analysis_df[get_rpc_cols(analysis_df.columns)]
     ndf.columns = ndf.columns.str.replace(" (Revised % Concordant)", "")
-    ndf.to_csv("analysis/csv/rpc-calculations.csv")
+    ndf.to_csv("rpc-calculations.csv")
 
 
 
