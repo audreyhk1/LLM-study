@@ -4,7 +4,7 @@ from collections import Counter
 import os
 
 global FILENAME
-FILENAME = ["chatgpt-rewordings/csv/new-analysis.csv", "chatgpt-rewordings/csv/rpc-calculations.csv"]
+FILENAME = ["language-rewordings/new-csv/new-analysis.csv", "language-rewordings/new-csv/rpc-calculations.csv"]
 global NQUESTIONS
 NQUESTIONS = 95
 global MODELS
@@ -12,7 +12,7 @@ MODELS = os.listdir("/workspaces/LLM-calibration/scores")
 
 # 1/(# of rewordings) --> 1/10, 1/4
 global PERCENT_INTERVALS
-PERCENT_INTERVALS = ["25", "50", "75", "100"]
+PERCENT_INTERVALS = ["30", "40", "50", "60", "70", "80", "90", "100"]
 
 def main():
     global PERCENT_INTERVALS
@@ -35,7 +35,7 @@ def main():
     probability_csv.insert(0, "% Concordance", PERCENT_INTERVALS, True)
     
     # write df to csv
-    probability_csv.to_csv("chatgpt-rewordings/csv/probability.csv", index=False)
+    probability_csv.to_csv("probability.csv", index=False)
 
 """
 1. loop through each question
@@ -44,7 +44,6 @@ def main():
 4. add to probability
 """
 def find_probabilities_per_llm(llm_ans, llm_concordant, large_file, totals):
-    print(totals)
     global PERCENT_INTERVALS
     # create dataframe to store all probabilities for the llm
     llm_probabilities = pd.DataFrame(0, columns=["Correct", "Percent"], index=range(NQUESTIONS))
@@ -65,7 +64,7 @@ def find_probabilities_per_llm(llm_ans, llm_concordant, large_file, totals):
     for i in range(NQUESTIONS):
         if llm_probabilities.iat[i, 0]:
             concordances_w_correct_q.loc[str(llm_probabilities.iat[i, 1])] += 1
-    
+    print(concordances_w_correct_q)
     # calculate probability / total
     final_probabilities = concordances_w_correct_q.div(totals).fillna(0).astype('float64')
     return final_probabilities
@@ -79,9 +78,11 @@ def is_answer_correct(question_num, ans, large_df, col = "Correct Answer"):
 def find_total(llm_n, filename=FILENAME[1]):
     global PERCENT_INTERVALS
     totals_df = pd.read_csv(filename)
-    temp = totals_df[[llm_n]].value_counts().reset_index(drop=True)
+    temp = totals_df[[llm_n]].value_counts().sort_index().reset_index(drop=True)
+    temp.index = range(len(PERCENT_INTERVALS) - 1, len(PERCENT_INTERVALS) - len(temp) - 1, -1)
+    temp.index = temp.index[::-1]
     t = pd.Series(index=range(len(PERCENT_INTERVALS)), name=llm_n)
-    merged = t.combine_first(temp).fillna(0).reindex(index=t.index[::-1])
+    merged = t.combine_first(temp).reindex(index=t.index).fillna(0)
     return pd.Series(data=merged.values, index=PERCENT_INTERVALS, name=llm_n)
 
 if __name__ == "__main__":
