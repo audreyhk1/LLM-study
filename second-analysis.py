@@ -4,13 +4,18 @@ from collections import Counter
 import os
 
 global FILENAME
-FILENAME = ["analysis/csv/new-analysis.csv", "analysis/csv/rpc-calculations.csv"]
+FILENAME = ["chatgpt-rewordings/csv/new-analysis.csv", "chatgpt-rewordings/csv/rpc-calculations.csv"]
 global NQUESTIONS
 NQUESTIONS = 95
 global MODELS
 MODELS = os.listdir("/workspaces/LLM-calibration/scores")
 
+# 1/(# of rewordings) --> 1/10, 1/4
+global PERCENT_INTERVALS
+PERCENT_INTERVALS = ["0", "25", "50", "75", "100"]
+
 def main():
+    global PERCENT_INTERVALS
     # open file containing analyzed data (analysis.csv)
     data_df = pd.read_csv(FILENAME[0], index_col=[0])
     # create df storing values
@@ -18,18 +23,19 @@ def main():
 
     # get total number of question with X concordance
     totals = find_total(FILENAME[1])
-    
+    print(totals)
+    return
     # loop through each column (LLM's Answers (i) & LLM's percent concordance (i + 1))
     cols = data_df.columns
     for i in range(2, len(cols), 2):
         llm_probability = find_probabilities_per_llm(llm_ans=data_df[cols[i - 1]], llm_concordant=data_df[cols[i]], large_file=data_df, totals=totals).to_frame().reset_index().drop(columns=['index']).rename(columns={0: cols[i].replace(" (Revised % Concordant)", "")})
-
         probability_csv = pd.concat([probability_csv, llm_probability], axis=1)
+        return
     
-    probability_csv.insert(0, "% Concordance", ["10%", "20%", "30%", "40%", "50%"], True)
+    probability_csv.insert(0, "% Concordance", PERCENT_INTERVALS, True)
     
     # write df to csv
-    probability_csv.to_csv("analysis/probability.csv", index=False)
+    probability_csv.to_csv("chatgpt-rewordings/csv/probability.csv", index=False)
 
 """
 1. loop through each question
@@ -38,23 +44,28 @@ def main():
 4. add to probability
 """
 def find_probabilities_per_llm(llm_ans, llm_concordant, large_file, totals):
+    global PERCENT_INTERVALS
     # create dataframe to store all probabilities for the llm
     llm_probabilities = pd.DataFrame(0, columns=["Correct", "Percent"], index=range(NQUESTIONS))
-    llm_probabilities.to_csv("a.csv")
     
     # loop through every question
     for i in range(NQUESTIONS):
-        llm_probabilities.iat[i, 1] = int(llm_concordant.iloc[i] * 10)
+        llm_probabilities.iat[i, 1] = llm_concordant.iloc[i] * 100
         llm_probabilities.iat[i, 0] = is_answer_correct(question_num=i, ans=llm_ans.iloc[i], large_df=large_file)
     
-    # finding probabilities for each column
-    concordances_w_correct_q = pd.Series(0, index=range(1,6))
+    # llm_probabilities now contains 2 cols: 
+    # "Correct" which is whether or not the LLM got the Original rewording correct (bool)
+    # "Percent": Revised Percent Concordance (10, 50, ...)
+
+    # finding probabilities for each column (PERCENT_INTERVALS as the keys for the Series)
+    concordances_w_correct_q = pd.Series(0, PERCENT_INTERVALS)
     
     # if question is true
     for i in range(NQUESTIONS):
         if llm_probabilities.iat[i, 0]:
-            concordances_w_correct_q[llm_probabilities.iat[i, 1]] += 1
+            concordances_w_correct_q.loc[str(llm_probabilities.iat[i, 1])] += 1
     
+    print(concordances_w_correct_q)
     # calculate probability / total
     final_probabilities = concordances_w_correct_q.div(totals).fillna(0).astype('float64')
     return final_probabilities
@@ -64,12 +75,20 @@ def is_answer_correct(question_num, ans, large_df, col = "Correct Answer"):
         return True
     return False
 
+# find the total counts for each potential revised percent concordance value
 def find_total(filename=FILENAME[1]):
     totals_df = pd.read_csv(filename)
-    frequency = pd.Series()
-    for col in totals_df.columns:
-        frequency = frequency.add(totals_df[col].value_counts(), fill_value=0)
-    frequency.index = (frequency.index * 10).astype(int)
+    columns = total_dfs.columns[1:]
+    temp = pd.Dataframe(columns=columns)
+    llm_frequency = []
+    
+    for llm in columns:
+        temp = temp.add(totals_df[col].value_counts(), fill_value=0)
+        temp.index = temp.index * 100
+        llm_frequency.append(temp)
+        temp = temp.mask(~tableA.notna())
+    
     return frequency
+
 if __name__ == "__main__":
     main()
