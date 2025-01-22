@@ -12,7 +12,7 @@ MODELS = os.listdir("/workspaces/LLM-calibration/scores")
 
 # 1/(# of rewordings) --> 1/10, 1/4
 global PERCENT_INTERVALS
-PERCENT_INTERVALS = ["0", "25", "50", "75", "100"]
+PERCENT_INTERVALS = ["25", "50", "75", "100"]
 
 def main():
     global PERCENT_INTERVALS
@@ -21,17 +21,17 @@ def main():
     # create df storing values
     probability_csv = pd.DataFrame()
 
-    # get total number of question with X concordance
-    totals = find_total(FILENAME[1])
-    print(totals)
-    return
     # loop through each column (LLM's Answers (i) & LLM's percent concordance (i + 1))
     cols = data_df.columns
     for i in range(2, len(cols), 2):
-        llm_probability = find_probabilities_per_llm(llm_ans=data_df[cols[i - 1]], llm_concordant=data_df[cols[i]], large_file=data_df, totals=totals).to_frame().reset_index().drop(columns=['index']).rename(columns={0: cols[i].replace(" (Revised % Concordant)", "")})
+        llm_probability = find_probabilities_per_llm(
+                llm_ans=data_df[cols[i - 1]], 
+                llm_concordant=data_df[cols[i]], 
+                large_file=data_df, 
+                totals=find_total(llm_n=cols[i-1])
+            ).to_frame().reset_index().drop(columns=['index']).rename(columns={0: cols[i].replace(" (Revised % Concordant)", "")})
         probability_csv = pd.concat([probability_csv, llm_probability], axis=1)
-        return
-    
+    print("Collected Concordance!")
     probability_csv.insert(0, "% Concordance", PERCENT_INTERVALS, True)
     
     # write df to csv
@@ -44,6 +44,7 @@ def main():
 4. add to probability
 """
 def find_probabilities_per_llm(llm_ans, llm_concordant, large_file, totals):
+    print(totals)
     global PERCENT_INTERVALS
     # create dataframe to store all probabilities for the llm
     llm_probabilities = pd.DataFrame(0, columns=["Correct", "Percent"], index=range(NQUESTIONS))
@@ -65,7 +66,6 @@ def find_probabilities_per_llm(llm_ans, llm_concordant, large_file, totals):
         if llm_probabilities.iat[i, 0]:
             concordances_w_correct_q.loc[str(llm_probabilities.iat[i, 1])] += 1
     
-    print(concordances_w_correct_q)
     # calculate probability / total
     final_probabilities = concordances_w_correct_q.div(totals).fillna(0).astype('float64')
     return final_probabilities
@@ -76,19 +76,13 @@ def is_answer_correct(question_num, ans, large_df, col = "Correct Answer"):
     return False
 
 # find the total counts for each potential revised percent concordance value
-def find_total(filename=FILENAME[1]):
+def find_total(llm_n, filename=FILENAME[1]):
+    global PERCENT_INTERVALS
     totals_df = pd.read_csv(filename)
-    columns = total_dfs.columns[1:]
-    temp = pd.Dataframe(columns=columns)
-    llm_frequency = []
-    
-    for llm in columns:
-        temp = temp.add(totals_df[col].value_counts(), fill_value=0)
-        temp.index = temp.index * 100
-        llm_frequency.append(temp)
-        temp = temp.mask(~tableA.notna())
-    
-    return frequency
+    temp = totals_df[[llm_n]].value_counts().reset_index(drop=True)
+    t = pd.Series(index=range(len(PERCENT_INTERVALS)), name=llm_n)
+    merged = t.combine_first(temp).fillna(0).reindex(index=t.index[::-1])
+    return pd.Series(data=merged.values, index=PERCENT_INTERVALS, name=llm_n)
 
 if __name__ == "__main__":
     main()
