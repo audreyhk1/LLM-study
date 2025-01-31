@@ -34,6 +34,17 @@ def main():
     print("Collected Concordance!")
     probability_csv.insert(0, "% Concordance", PERCENT_INTERVALS, True)
     
+    # loop through each llm
+    cols = probability_csv.columns[1:]  # Exclude % Concordance
+
+    for n_llm in cols:  # Directly iterate over column names
+        totals = find_total(llm_n=n_llm)  # Get totals for this column
+        
+        for c in range(len(probability_csv.index)):  # Iterate over rows
+            probability_csv.at[c, n_llm] = float(probability_csv.at[c, n_llm])  # Convert value
+            probability_csv.at[c, n_llm] *= totals[c] / NQUESTIONS  # Apply weight
+            
+            
     # write df to csv
     probability_csv.to_csv("probability.csv", index=False)
 
@@ -64,7 +75,6 @@ def find_probabilities_per_llm(llm_ans, llm_concordant, large_file, totals):
     for i in range(NQUESTIONS):
         if llm_probabilities.iat[i, 0]:
             concordances_w_correct_q.loc[str(llm_probabilities.iat[i, 1])] += 1
-    print(concordances_w_correct_q)
     # calculate probability / total
     final_probabilities = concordances_w_correct_q.div(totals).fillna(0).astype('float64')
     return final_probabilities
