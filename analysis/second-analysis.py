@@ -35,14 +35,7 @@ def main():
     probability_csv.insert(0, "% Concordance", PERCENT_INTERVALS, True)
     
     # loop through each llm
-    cols = probability_csv.columns[1:]  # Exclude % Concordance
-
-    for n_llm in cols:  # Directly iterate over column names
-        totals = find_total(llm_n=n_llm)  # Get totals for this column
-        
-        for c in range(len(probability_csv.index)):  # Iterate over rows
-            probability_csv.at[c, n_llm] = float(probability_csv.at[c, n_llm])  # Convert value
-            probability_csv.at[c, n_llm] *= totals[c] / NQUESTIONS  # Apply weight
+    get_weighted_average(probability_csv).to_csv("weighted-average.csv", index=False)
             
             
     # write df to csv
@@ -95,5 +88,20 @@ def find_total(llm_n, filename=FILENAME[1]):
     merged = t.combine_first(temp).reindex(index=t.index).fillna(0)
     return pd.Series(data=merged.values, index=PERCENT_INTERVALS, name=llm_n)
 
+def get_weighted_average(df):
+    global NQUESTIONS
+    
+    cols = df.columns[1:]  # Exclude % Concordance
+
+    for n_llm in cols:  # Directly iterate over column names
+        totals = find_total(llm_n=n_llm)  # Get totals for this column
+        
+        for c in range(len(df.index)):  # Iterate over rows
+            df.at[c, n_llm] = float(df.at[c, n_llm])  # Convert value
+            df.at[c, n_llm] *= totals[c] / NQUESTIONS  # Apply weight
+    
+    return df
+            
+            
 if __name__ == "__main__":
     main()
