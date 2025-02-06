@@ -15,8 +15,8 @@ def main():
     global LANGUAGES, NQUESTIONS, FILENAMES
     
     # get filenames
-    for name in os.listdir("scores"):
-        FILENAMES.append(f"scores/{name}")
+    for name in os.listdir("language-rewordings/scores"):
+        FILENAMES.append(f"language-rewordings/scores/{name}")
     
     # create a new 
     analysis_df = pd.DataFrame(index=range(NQUESTIONS))
@@ -48,13 +48,13 @@ def main():
 
         # 2) find number of revised percent concordance
         analysis_df = pd.concat([analysis_df, calculate_revised_concordant(rewording_df, FILENAMES[n].removeprefix("scores/").removesuffix(".csv"))], axis=1)
-        
-    analysis_df.insert(0, "Correct Answer", answers_df["answer"])
-    analysis_df.to_csv("new-analysis.csv")
+        return
+    # analysis_df.insert(0, "Correct Answer", answers_df["answer"])
+    # analysis_df.to_csv("new-analysis.csv")
     
-    ndf = analysis_df[get_rpc_cols(analysis_df.columns)]
-    ndf.columns = ndf.columns.str.replace(" (Revised % Concordant)", "")
-    ndf.to_csv("rpc-calculations.csv")
+    # ndf = analysis_df[get_rpc_cols(analysis_df.columns)]
+    # ndf.columns = ndf.columns.str.replace(" (Revised % Concordant)", "")
+    # ndf.to_csv("rpc-calculations.csv")
 
 
 
@@ -110,6 +110,7 @@ def calculate_revised_concordant(dataframe, name):
     for question_index in dataframe.index:
         # get frequency of answer choice (A, B...) from all columns
         frequency = dataframe.iloc[question_index].value_counts()
+        print(frequency.max)
         rc_df.iloc[question_index] = frequency.max() / frequency.sum()
     
     return rc_df
